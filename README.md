@@ -3,7 +3,7 @@
 
 TL;DR:
 
-* Translated version: https://shiromoca-cafe-bandori-tl.github.io/grpa-apr-fl-2022_shrmca/ (open only if you trust me and the creator of QuickBMS)
+* Translated version (WIP): https://shiromoca-cafe-bandori-tl.github.io/grpa-apr-fl-2022_shrmca/ (open only if you trust me and the creator of QuickBMS)
 * Original version: https://shiromoca-cafe-bandori-tl.github.io/grpa-apr-fl-2022_shrmca/original/
 * Scripts are located in 
 
