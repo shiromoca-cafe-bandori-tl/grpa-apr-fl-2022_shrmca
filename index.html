@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html style="overflow: hidden;" lang="ja"><head>
+            <meta charset="utf-8">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+            <meta content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1" name="viewport">
+            <title>Girl's Blossom Project〜嘘のようなホントの恋〜</title>
+            <!-- OGP設定 -->
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="Girl's Blossom Project〜嘘のようなホントの恋〜">
+            <meta property="og:description" content="Girl's Blossom Project〜嘘のようなホントの恋〜　ガルパの恋愛シミュレーションゲームが、ついにリリースされました。ぜひ、今作をお楽しみください">
+            <meta property="og:url" content="https://april-bang-dream.bushimo.jp/">
+            <meta property="og:site_name" content="Girl's Blossom Project〜嘘のようなホントの恋〜">
+            <meta property="og:image" content="https://april-bang-dream.bushimo.jp/twitter_card.jpg">
+            <meta property="og:locale" content="ja_JP">
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@bang_dream_info">
+            <meta name="twitter:creator" content="@bang_dream_info">
+            <meta name="twitter:image:src" content="https://april-bang-dream.bushimo.jp/twitter_card.jpg">
+            <style>
+
+                 .container{
+                    position: relative;
+                 }
+
+
+                .imgbox {
+                    background-size:  contain;                /* 画像のサイズ指定 */
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .emscripten {
+
+                    right: 0;
+                    bottom: 0;
+                    padding-right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block
+                }
+
+                textarea.emscripten {
+                    font-family: monospace;
+                    width: 80%
+                }
+
+                div.emscripten {
+                    text-align: center
+                }
+
+                div.emscripten_border {
+                    border: 0 solid #000
+                }
+
+                canvas.emscripten {
+                    border: 0 none;
+                    /* background-color: #FFF */
+                }
+
+                .spinner {
+                    /* height: 50px; */
+                    /* width: 50px; */
+                    /* margin: 0 auto; */
+                    -webkit-animation: rotation .8s linear infinite;
+                    -moz-animation: rotation .8s linear infinite;
+                    -o-animation: rotation .8s linear infinite;
+                    animation: rotation .8s linear infinite;
+/*
+                    border-left: 10px solid #0096f0;
+                    border-right: 10px solid #0096f0;
+                    border-bottom: 10px solid #0096f0;
+                    border-top: 10px solid #6400c8;
+*/
+                    border-radius: 100%;
+                    /* background-color: #c864fa */
+                }
+
+                @-webkit-keyframes rotation {
+                    from {
+                        -webkit-transform: rotate(0)
+                    }
+
+                    to {
+                        -webkit-transform: rotate(360deg)
+                    }
+                }
+
+                @-moz-keyframes rotation {
+                    from {
+                        -moz-transform: rotate(0)
+                    }
+
+                    to {
+                        -moz-transform: rotate(360deg)
+                    }
+                }
+
+                @-o-keyframes rotation {
+                    from {
+                        -o-transform: rotate(0)
+                    }
+
+                    to {
+                        -o-transform: rotate(360deg)
+                    }
+                }
+
+                @keyframes rotation {
+                    from {
+                        transform: rotate(0)
+                    }
+
+                    to {
+                        transform: rotate(360deg)
+                    }
+                }
+            </style>
+	<link rel="icon" href="https://april-bang-dream.bushimo.jp/favicon.ico">
+	<link rel="apple-touch-icon" href="https://april-bang-dream.bushimo.jp/apple-touch-icon.png">
+        </head>
+
+        <body style="background-color: black; margin: 0px;">
+<div class="container">
+<img src="loading.webp" class="imgbox" style="display: none;">
+
+            <script style="display: none;">var passiveSupported = !1; try { document.addEventListener("test", null, Object.defineProperty({}, "passive", { get: function () { passiveSupported = !0 } })) } catch (e) { } document.addEventListener("touchstart", (function (e) { e.preventDefault() }), !!passiveSupported && { passive: !1 }), document.addEventListener("touchmove", (function (e) { e.preventDefault() }), !!passiveSupported && { passive: !1 })</script>
+            <figure id="spinner" style="overflow: visible; position: absolute; display: none;" hidden="">
+                <!--
+                <div class=spinner>
+                </div>
+
+                <center style=margin-top:.5em>
+                    <strong>
+                        emscripten</strong>
+                </center>
+                -->
+            </figure>
+           <div class="emscripten" id="status" style="display: none;"></div>
+            <div class="emscripten" style="display: none;"><progress id="progress" max="0" value="0" hidden=""></progress></div>
+            <div class="emscripten_border"><canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1" style="background-color: black; width: 1368px; height: 797px;" width="2736" height="1594"></canvas></div>
+            <script style="display: none;">var statusElement = document.getElementById("status"), progressElement = document.getElementById("progress"), spinnerElement = document.getElementById("spinner"), Module = { preRun: [], postRun: [], print: function () { var e = document.getElementById("output"); return e && (e.value = ""), function (t) { arguments.length > 1 && (t = Array.prototype.slice.call(arguments).join(" ")), console.log(t), e && (e.value += t + "\n", e.scrollTop = e.scrollHeight) } }(), printErr: function (e) { arguments.length > 1 && (e = Array.prototype.slice.call(arguments).join(" ")), console.error(e) }, canvas: function () { var e = document.getElementById("canvas"); return e.addEventListener("webglcontextlost", (function (e) { alert("WebGL context lost. You will need to reload the page."), e.preventDefault() }), !1), e }(), setStatus: function (e) { if (Module.setStatus.last || (Module.setStatus.last = { time: Date.now(), text: "" }), e !== Module.setStatus.last.text) { var t = e.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/), n = Date.now(); t && n - Module.setStatus.last.time < 30 || (Module.setStatus.last.time = n, Module.setStatus.last.text = e, t ? (e = t[1], progressElement.value = 100 * parseInt(t[2]), progressElement.max = 100 * parseInt(t[4]), progressElement.hidden = !1, spinnerElement.hidden = !1) : (progressElement.value = null, progressElement.max = null, progressElement.hidden = !0, e || (spinnerElement.hidden = !0)), statusElement.innerHTML = e) } }, totalDependencies: 0, monitorRunDependencies: function (e) { this.totalDependencies = Math.max(this.totalDependencies, e), Module.setStatus(e ? "Preparing... (" + (this.totalDependencies - e) + "/" + this.totalDependencies + ")" : "All downloads complete.") } }; Module.setStatus("Downloading..."), window.onerror = function () { Module.setStatus("Exception thrown, see JavaScript console"), spinnerElement.style.display = "none", Module.setStatus = function (e) { e && Module.printErr("[post-exception status] " + e) } }</script>
+</div>
+            <script async="" src="./artemis.js" style="display: none;"></script>
+        
+
+    </body></html>
