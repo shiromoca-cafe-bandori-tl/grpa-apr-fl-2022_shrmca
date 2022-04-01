@@ -1,0 +1,2280 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm001"},
+		{"msgoff"},
+		{"bg", file="zbg01a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="りみ", size="z2", mode=3, resize=1, path=":fg/rim/z2/", file="rim_z2a0000", face="a0002", head="rim_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00160", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"わあ……！　ひまりちゃんらしくて、とっても素敵だと思う！",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 16,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ふふっ！　実は私、演劇部の公演があるたびに",
+					{"rt2"},
+					"薫先輩へお手紙を書いてたんだ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 21,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"きっとたくさんお手紙が届いてるはずなのに、",
+					{"rt2"},
+					"薫先輩は、１通１通大切に読んでくれてる……！",
+					{"rt2"},
+					"私、先輩のそういうところが大好きなんだ♪",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 27,
+	},
+	block_00003 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0001", head="rim_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00161", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"ひまりちゃん……！",
+					{"rt2"},
+					"良かったら私も、一緒に書いていいかな？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 33,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"もちろん！　二人で書いて、二人で渡しに行こっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 37,
+	},
+	block_00005 = {
+		{"bg", file="bg12a", path=":bg/"},
+		{"ex", time=1500, func="wait"},
+		{"bg", file="bg12b", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その日、私たちは下校時間ギリギリまで",
+					{"rt2"},
+					"薫先輩へのお手紙を書き続けた。",
+					{"rt2"},
+					"溢れ出た想いは止まらなくて──今夜は眠れるかわかんないや！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 51,
+	},
+	block_00006 = {
+		{"bgm", stop=1, time=2000},
+		{"se", stop=1, id=-1, time=2000},
+		{"vostop", stop=1, time=2000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="label99"},
+		{"bgm", file="bgm001"},
+		{"msgoff"},
+		{"bg", file="zbg01a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0003", head="rim_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00162", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"そっか！　薫さんの好きなものだね！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 72,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そうそうっ、りみも聞いたことある！？",
+					{"rt2"},
+					"ザッハトルテが好きだなんて、薫先輩オシャレだよね～！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 77,
+	},
+	block_00008 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0003", head="rim_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0002", head="rim_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00163", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"うんっ、やっぱり薫さんは素敵だよね……！",
+					{"rt2"},
+					"好きなものをいっぱい食べて、舞台に上がって欲しいな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 84,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"それじゃあ、私と一緒に作ろうよ！",
+					{"rt2"},
+					"ザッハトルテにはちょっと自信あるんだ～！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 89,
+	},
+	block_00010 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0005", head="rim_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00164", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"ひまりちゃん、ザッハトルテ作れるのっ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 94,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"まあね！　お店のやつには敵わないかもしれないけど、",
+					{"rt2"},
+					"チョコレートのお菓子は得意だよ～っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 99,
+	},
+	block_00012 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0003", head="rim_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0001", head="rim_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00165", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"さすがひまりちゃん、頼りになるね！",
+					{"rt2"},
+					"それじゃあ放課後、一緒に作ろう",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 106,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うんっ！　もちろん応援の気持ちもちょい足しして、",
+					{"rt2"},
+					"最高のザッハトルテを作るぞ～っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 111,
+	},
+	block_00014 = {
+		{"quake", mode="mw"},
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0003", head="rim_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00120", ch="him"},
+				{"vo", file="fem_rim_00119", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"ひまり・りみ"},
+					"えい、えい、おー！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 122,
+	},
+	block_00015 = {
+		{"bgm", stop=1, time=2000},
+		{"se", stop=1, id=-1, time=2000},
+		{"vostop", stop=1, time=2000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="label99"},
+		{"bgm", file="bgm001"},
+		{"msgoff"},
+		{"bg", file="zbg01a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0003", head="rim_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00166", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"わあ……！　ひまりちゃんもそう思うっ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 144,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うん！　甘いものは差し入れの定番だし、",
+					{"rt2"},
+					"薫先輩が舞台をやり切るエネルギーになるかも！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 149,
+	},
+	block_00017 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0002", head="rim_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0001", head="rim_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00167", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"ひまりちゃん……！",
+					{"rt2"},
+					"それなら、商店街に美味しいパン屋さんがあるんだけど……",
+					{"rt2"},
+					"明日のお昼、一緒にいかない？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 157,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"行く行く！　焼き立てのチョココロネ、買いに行こっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 161,
+	},
+	block_00019 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0003", head="rim_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00168", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"うんっ！",
+					{"rt2"},
+					"薫先輩が喜んでくれたらいいな……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 167,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ふふっ、りみが嬉しそうで良かった……！",
+					{"rt2"},
+					"りみの気持ち、きっと届くといいね……！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 172,
+	},
+	block_00021 = {
+		{"bg", file="bg12a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（──次の日は約束通り、りみとパン屋さんに行ったんだ！",
+					{"rt2"},
+					"チョココロネ以外もたくさん買っちゃったけど、",
+					{"rt2"},
+					"そっちは二人でお昼ご飯に食べよっと♪）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 180,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（りみと一緒だと、本当に楽しくて……",
+					{"rt2"},
+					"ずっとずっと、友達でいられたらなって！",
+					{"rt2"},
+					"心からそう思うな）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 186,
+	},
+	block_00023 = {
+		{"bgm", stop=1, time=2000},
+		{"se", stop=1, id=-1, time=2000},
+		{"vostop", stop=1, time=2000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="label99"},
+		{"msgoff"},
+		{"bg", x=-300, file="zbg05a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="薫", size="z2", mode=3, resize=1, path=":fg/kao/z2/", file="kao_z2a0000", face="a0002", head="kao_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=2000},
+		{"bgm", file="bgm003"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00169", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"ああ、二人とも……来てくれて嬉しいよ！",
+					{"rt2"},
+					"少し慌ただしいかもしれないが、ゆっくりしていっておくれ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 212,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ついに、伝説の桜の樹の開花予想日──",
+					{"rt2"},
+					"そして、演劇部の公演の日が訪れた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 217,
+	},
+	block_00025 = {
+		{"msgoff"},
+		{"bg", file="bg05a", path=":bg/", sync=0},
+		{"fg", ch="りみ", size="z1", mode=3, resize=1, path=":fg/rim/z1/", file="rim_z1a0000", face="a0003", head="rim_z1a", x=-230, lv=4, id=9, sync=0},
+		{"fg", ch="薫", size="z1", mode=3, resize=1, path=":fg/kao/z1/", file="kao_z1a0000", face="a0001", head="kao_z1a", x=230, lv=4, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00170", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"これ……私たち二人で用意しましたっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 227,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"良かったら、受け取ってくださいっ……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 231,
+	},
+	block_00027 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0002", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（薫先輩は私たちの用意した差し入れを受け取ると、",
+					{"rt2"},
+					"本当に嬉しそうな笑顔を見せてくれた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 238,
+	},
+	block_00028 = {
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0001", head="rim_z1a", x=-230, lv=4, id=9},
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0002", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00171", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"二人の気持ち、確かに受け取ったよ……",
+					{"rt2"},
+					"このお礼は、必ずや舞台の上から届けると約束しよう！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 245,
+	},
+	block_00029 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0001", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00172", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"思えば二人とも、毎日欠かさずここを訪れて応援してくれたね。",
+					{"rt2"},
+					"そんな君たちに、私たちも支えられていたよ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 251,
+	},
+	block_00030 = {
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0005", head="rim_z1a", x=-230, lv=4, id=9},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"い、いえ、そんな……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 257,
+	},
+	block_00031 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0002", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00173", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"フフ……君たちはもう、この舞台になくてはならない存在なんだ。",
+					{"rt2"},
+					"そうだろう、千聖？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 263,
+	},
+	block_00032 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg05a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="千聖", size="z2", mode=3, resize=1, path=":fg/chi/z2/", file="chi_z2a0000", face="a0004", head="chi_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00174", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千聖"},
+					"ええ……そう、ね……",
+					{"rt2"},
+					"薫の言う通り……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 274,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00175", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"……千聖？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 277,
+	},
+	block_00034 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（どこか弱々しい千聖先輩の声を聞いて、",
+					{"rt2"},
+					"薫先輩の表情が変わった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 284,
+	},
+	block_00035 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg05a", path=":bg/", sync=0},
+		{"fg", ch="千聖", size="z1", mode=3, resize=1, path=":fg/chi/z1/", file="chi_z1a0000", face="a0004", head="chi_z1a", x=-230, lv=4, id=9, sync=0},
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0006", head="kao_z1a", x=230, lv=4, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"千聖先輩……？　ど、どうしたんですかっ！？",
+					{"rt2"},
+					"そんなに青ざめて……！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 297,
+	},
+	block_00036 = {
+		{"fg", ch="千聖", size="z1", mode=3, path=":fg/chi/z1/", file="chi_z1a0000", face="a0005", head="chi_z1a", x=-230, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00176", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千聖"},
+					"……心配しなくても、大丈夫よ……",
+					{"rt2"},
+					"少し、疲れがたまっているだけ、だから……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 303,
+	},
+	block_00037 = {
+		{"quake", mode="mw"},
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0005", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00177", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"──千聖っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 310,
+	},
+	block_00038 = {
+		{"bg", time=500, file="zbg05a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360},
+		{"bgm", file="bgm005"},
+		{"msgon"},
+		{"quake"},
+		{"se", file="se021", id=1},
+		{"fg", ch="薫", size="z2", mx=40, mode=3, resize=1, path=":fg/kao/z2/", file="kao_z2a0000", face="a0006", head="kao_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ふらりと傾いた千聖先輩の華奢な身体を、",
+					{"rt2"},
+					"薫先輩が間一髪受け止めた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 325,
+	},
+	block_00039 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00178", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"ひまり・りみ"},
+					"千聖先輩っ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 334,
+	},
+	block_00040 = {
+		{"fg", ch="薫", size="z2", mode=3, path=":fg/kao/z2/", file="kao_z2a0000", face="a0006", head="kao_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00179", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"千聖……大丈夫、私がついているよ。",
+					{"rt2"},
+					"──すぐに保健室へ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 340,
+	},
+	block_00041 = {
+		{"se", stop=1, time=500, id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", x=-350, y=100, file="zbg19b", path=":bg/", ax=1024, ay=575, bx=-384, by=-215, sync=0},
+		{"fg", ch="千聖", size="z2", mode=3, resize=1, path=":fg/chi/z2/", file="chi_z2a0000", face="a0005", head="chi_z2a", lv=5, id=9, sync=0},
+		{"extrans", rule=139, vague=40},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00180", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千聖"},
+					"本当に……ごめんなさい──",
+					{"rt2"},
+					"本番当日に体調を崩すなんて……これじゃあ役者失格ね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 359,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00181", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"いいや──こんなにそばにいたのに、",
+					{"rt2"},
+					"君が無理をしていることに気づけなかった……私の責任だ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 363,
+	},
+	block_00043 = {
+		{"msgoff"},
+		{"bg", file="bg19b", path=":bg/", sync=0},
+		{"fg", ch="薫", size="z1", mode=3, resize=1, path=":fg/kao/z1/", file="kao_z1a0000", face="a0004", head="kao_z1a", lv=4, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（こんなに動揺している薫先輩は、初めて見た──",
+					{"rt2"},
+					"保健室のベッドに横たわる千聖先輩のそばで、",
+					{"rt2"},
+					"先輩は静かにうなだれていた……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 375,
+	},
+	block_00044 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0001", head="kao_z1a", lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00182", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"どうか気に病まないでおくれ、千聖。",
+					{"rt2"},
+					"今はゆっくり休んで──また、元気な笑顔を見せてくれ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 381,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00183", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千聖"},
+					"ええ……ありがとう、薫……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 384,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"演劇部員"},
+					"……残念ですが、今回の舞台は中止にしましょう。",
+					{"rt2"},
+					"ジブン、顧問の先生に伝えてきます",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 389,
+	},
+	block_00047 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0003", head="kao_z1a", lv=4, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そ、そんな…………！",
+					{"rt2"},
+					"中止って、なんとかならないんですか……！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 396,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"演劇部員"},
+					"……千聖さんの役はとても重要で、",
+					{"rt2"},
+					"簡単に代役は立てられません……",
+					{"rt2"},
+					"応援してくださったみなさんには申し訳ないですが……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 402,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"…………っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 406,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（千聖先輩が心配なのは、私も同じ……！",
+					{"rt2"},
+					"だけど、このまま舞台が中止になったら、",
+					{"rt2"},
+					"一生懸命練習してきた薫先輩は──？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 412,
+	},
+	block_00051 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg19b", path=":bg/", ax=1024, ay=575, bx=-384, by=-215, sync=0},
+		{"fg", ch="薫", size="z2", mode=3, resize=1, path=":fg/kao/z2/", file="kao_z2a0000", face="a0006", head="kao_z2a", lv=5, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00184", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"いや……一人だけ、心当たりがある",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 422,
+	},
+	block_00052 = {
+		{"fg", ch="薫", size="z2", mode=3, path=":fg/kao/z2/", file="kao_z2a0000", face="a0006", head="kao_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00185", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"ひまりちゃん──どうか今日の演劇の舞台へ、",
+					{"rt2"},
+					"私と共に上がってはもらえないだろうか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 428,
+	},
+	block_00053 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ええっ──！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 434,
+	},
+	block_00054 = {
+		{"fg", ch="薫", size="z2", mode=3, path=":fg/kao/z2/", file="kao_z2a0000", face="a0001", head="kao_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00186", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"君は何度も練習を見に来てくれた──",
+					{"rt2"},
+					"時には、レッスンにも付き合ってもらったね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 440,
+	},
+	block_00055 = {
+		{"fg", ch="薫", size="z2", mode=3, path=":fg/kao/z2/", file="kao_z2a0000", face="a0006", head="kao_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00187", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"『お姫様』の役をお願いできるとしたら──ひまりちゃん、君だ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 445,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"…………っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 449,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（一瞬、あまりのことに言葉を失った。",
+					{"rt2"},
+					"でも、真剣な薫先輩の目を見て……",
+					{"rt2"},
+					"私は必死に声を絞り出した──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 455,
+	},
+	block_00058 = {
+		{"select", label="label11", text="select"},
+		{"select", label="label12", text="select"},
+		{"select", label="label13", cond="f.rim==2", text="select"},
+		{"select", mode="sys", name="02_03_1"},
+		{"text"},
+		select = {
+			ja = {
+				"私……やりますっ！",
+				"そ、そんなの無理です……っ",
+				"それなら──りみを！",
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 483,
+	},
+	block_00059 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ありったけの勇気を振り絞って──私は答えた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 495,
+	},
+	block_00060 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg19b", path=":bg/", sync=0},
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0004", head="rim_z1a", x=-230, lv=4, id=9, sync=0},
+		{"fg", ch="薫", size="z1", mode=3, resize=1, path=":fg/kao/z1/", file="kao_z1a0000", face="a0006", head="kao_z1a", x=230, lv=4, id=10, sync=0},
+		{"extrans", time=500},
+		{"bgm", file="bgm004"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00188", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"ひ、ひまりちゃんっ……？",
+					{"rt2"},
+					"そんな、無茶だよ……っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 509,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"大丈夫……っ！　私、ずっと先輩の練習見てたから──",
+					{"rt2"},
+					"劇の内容、覚えてる……っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 514,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（確かに無茶かもしれない……",
+					{"rt2"},
+					"千聖先輩と違って、私じゃ『薫先輩に釣り合うお姫様』には",
+					{"rt2"},
+					"見えないかもしれない……けど！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 520,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"薫先輩たちが……っ！",
+					{"rt2"},
+					"これまでがんばって、作り上げてきた舞台を──",
+					{"rt2"},
+					"このまま終わらせるわけにはいきませんっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 526,
+	},
+	block_00064 = {
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0005", head="rim_z1a", x=-230, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00189", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"…………っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 531,
+	},
+	block_00065 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0002", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00190", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"──ありがとう、ひまりちゃん",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 536,
+	},
+	block_00066 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg19b", path=":bg/", ax=1024, ay=575, bx=-384, by=-215, sync=0},
+		{"fg", ch="薫", size="z2", mode=3, resize=1, path=":fg/kao/z2/", file="kao_z2a0000", face="a0001", head="kao_z2a", lv=5, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（薫先輩は優しく微笑むと、震える私の手を取った。",
+					{"rt2"},
+					"たったそれだけで、押し寄せたはずの緊張が引いていく）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 548,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00191", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"安心しておくれ。",
+					{"rt2"},
+					"お姫様に心配をさせないのが、王子の役目さ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 552,
+	},
+	block_00068 = {
+		{"msgoff"},
+		{"bg", x=-350, y=100, file="zbg19b", path=":bg/", ax=1024, ay=575, bx=-384, by=-215, sync=0},
+		{"fg", ch="千聖", size="z2", mode=3, path=":fg/chi/z2/", file="chi_z2a0000", face="a0003", head="chi_z2a", lv=5, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00192", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千聖"},
+					"私も……賛成するわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 561,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ち、千聖先輩……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 565,
+	},
+	block_00070 = {
+		{"fg", ch="千聖", size="z2", mode=3, path=":fg/chi/z2/", file="chi_z2a0000", face="a0003", head="chi_z2a", lv=5, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="千聖", size="z2", mode=3, path=":fg/chi/z2/", file="chi_z2a0000", face="a0001", head="chi_z2a", lv=5, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00193", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千聖"},
+					"薫がそこまで言うんだもの……",
+					{"rt2"},
+					"きっと、それに足る理由があるはずよ……",
+					{"rt2"},
+					"私も、あなたのことを信じる……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 573,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"…………っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 577,
+	},
+	block_00072 = {
+		{"bg", time=500, file="bg19b", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"演劇部員"},
+					"けど……それなら大急ぎでリハをしなくては！",
+					{"rt2"},
+					"本当にGOを出すかはそれ次第ですよ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 584,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"だ、大丈夫です……私、やりますっ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 588,
+	},
+	block_00074 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"excall", file="02薫・りみルート_4"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg19b", path=":bg/", sync=0},
+		{"fg", ch="薫", size="z1", mode=3, resize=1, path=":fg/kao/z1/", file="kao_z1a0000", face="a0006", head="kao_z1a", lv=4, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（口をついて出てきたのは、",
+					{"rt2"},
+					"重圧に押し潰された否定の言葉だった……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 612,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"何度も練習を観て来ました……けど、",
+					{"rt2"},
+					"実際に舞台に上がるなんて……できるわけないです……っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 617,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（もしも私のせいで、薫先輩の舞台を台無しにしてしまったら？",
+					{"rt2"},
+					"あるいは、舞台を観ている人たちが",
+					{"rt2"},
+					"私を認めてくれなかったら？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 623,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私じゃ、薫先輩の相手役なんて務まるわけない……",
+					{"rt2"},
+					"千聖先輩みたいにキレイで、気品のある……",
+					{"rt2"},
+					"『本物のお姫様』のような人じゃなきゃ……！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 629,
+	},
+	block_00078 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0004", head="kao_z1a", lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00194", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"ふむ…………",
+					{"rt2"},
+					"そうなると、私もこれ以上の手段は思い付かないね……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 635,
+	},
+	block_00079 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0001", head="kao_z1a", lv=4, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0006", head="kao_z1a", lv=4, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00195", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"残念だが、今日の公演は中止にしよう。",
+					{"rt2"},
+					"楽しみに待ってくれている子猫ちゃんたちには申し訳ないが……",
+					{"rt2"},
+					"千聖の役がなければ、この舞台は成り立たない",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 643,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"演劇部員"},
+					"ですね……部員の皆さんに連絡して、",
+					{"rt2"},
+					"撤収作業を始めてもらいます",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 648,
+	},
+	block_00081 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0001", head="kao_z1a", lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00196", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"ひまりちゃんも、気にしないでおくれ……！",
+					{"rt2"},
+					"舞台をやっていれば、いつかこういうこともあるさ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 654,
+	},
+	block_00082 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0004", head="kao_z1a", lv=4, id=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（去っていく演劇部員を、どこか悲しそうに見つめる薫先輩──",
+					{"rt2"},
+					"その姿を見つめる私の頬を、",
+					{"rt2"},
+					"いつの間にか涙が濡らしていた……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 662,
+	},
+	block_00083 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（演劇部が公演の中止を発表したのは、",
+					{"rt2"},
+					"そのすぐ後のことだった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 671,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（一時は残念ムードに包まれた学園だったけど……",
+					{"rt2"},
+					"その日の内に開花した伝説の桜の樹のおかげで、",
+					{"rt2"},
+					"あっという間に立ち直ってしまった……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 677,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（あの時の薫先輩の、悲しそうな表情が……",
+					{"rt2"},
+					"どうしても頭の中をよぎる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 682,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"もしもあの時、勇気を振り絞って……",
+					{"rt2"},
+					"薫先輩の相手役を、つとめられていたら……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 687,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（今さらどうすることもできない後悔が、",
+					{"rt2"},
+					"私の胸を覆い尽くしていく）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 692,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（手元に残ったのは、",
+					{"rt2"},
+					"公演されることのなかった舞台のチケットだけ……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 697,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（伝説の桜の樹──",
+					{"rt2"},
+					"きっと薫先輩は、誰ともあの場所に行かないのだろうと、",
+					{"rt2"},
+					"そんな予感がした）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 703,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（結局私は、桜の花びらが全て散ってしまうまで、",
+					{"rt2"},
+					"中庭を訪れることができなかった……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 708,
+	},
+	block_00091 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"bgm", stop=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg19b", path=":bg/", sync=0},
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0005", head="rim_z1a", x=-230, lv=4, id=9, sync=0},
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0006", head="kao_z1a", x=230, lv=4, id=10, sync=0},
+		{"extrans", time=500},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00197", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"…………っ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 734,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ズキリとうずく、胸の痛みさえ振り切って──",
+					{"rt2"},
+					"私はりみの名前を口にした）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 739,
+	},
+	block_00093 = {
+		{"bgm", file="bgm004"},
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0004", head="rim_z1a", x=-230, lv=4, id=9},
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0006", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00198", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"……理由を聞かせておくれ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 747,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"私のことを信じて声をかけてくれた先輩には、謝ります……！",
+					{"rt2"},
+					"でも…………！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 752,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（でも、私……りみのこと裏切れないよ……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 756,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（りみがどれだけ先輩に憧れてるか、私は知ってる……！",
+					{"rt2"},
+					"その気持ちを無視して、こんな大役引き受けられない……っ！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 761,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（もしも私が薫先輩の手をとって、それで……",
+					{"rt2"},
+					"りみと友達でいられなくなったら？",
+					{"rt2"},
+					"りみが私のこと、嫌いになっちゃったら……？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 767,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私にとって、りみは大切な友達で……",
+					{"rt2"},
+					"ずっと一緒にいたい人で……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 772,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（だから、王子様と結ばれるべきお姫様は──",
+					{"rt2"},
+					"きっと私じゃない！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 777,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"りみは……りみはすっごくいい子なんですっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 781,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"とっても優しくて、かわいくて──でも一途で芯の強さがあって！",
+					{"rt2"},
+					"誰かのことを心から思いやれる子なんです！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 786,
+	},
+	block_00102 = {
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0005", head="rim_z1a", x=-230, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00199", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"…………っ！",
+					{"rt2"},
+					"でもっ、それじゃあひまりちゃんは……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 792,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"りみだって何度も練習を見学して……っ",
+					{"rt2"},
+					"舞台の内容を覚えているはずですっ！",
+					{"rt2"},
+					"私じゃきっと、緊張してセリフを間違えちゃいますから……っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 798,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"だから……その点、りみなら安心です。",
+					{"rt2"},
+					"きっと立派にやり切ってくれるはずです！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 803,
+	},
+	block_00105 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0006", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00200", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"…………",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 808,
+	},
+	block_00106 = {
+		{"fg", ch="薫", size="z1", mode=3, path=":fg/kao/z1/", file="kao_z1a0000", face="a0001", head="kao_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_kao_00201", ch="kao"},
+			},
+			ja = {
+				{
+					name = {"薫"},
+					"……りみちゃん。",
+					{"rt2"},
+					"千聖の役を代ってはもらえないだろうか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 814,
+	},
+	block_00107 = {
+		{"fg", ch="りみ", size="z1", mode=3, path=":fg/rim/z1/", file="rim_z1a0000", face="a0004", head="rim_z1a", x=-230, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00202", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"！？　で、でも……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 819,
+	},
+	block_00108 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=300, file="zbg19b", path=":bg/", ax=1024, ay=575, bx=-384, by=-215, sync=0},
+		{"fg", ch="りみ", size="z2", mode=3, resize=1, path=":fg/rim/z2/", file="rim_z2a0000", face="a0004", head="rim_z2a", lv=5, id=9, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ほらっ……！",
+					{"rt2"},
+					"このままこの舞台が、公演できなくなっちゃってもいいの！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 831,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私は、必死に涙をこらえながら──笑顔でりみの背中を押す）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 835,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"伝説の桜の樹──りみが大切な人と二人で、",
+					{"rt2"},
+					"願いごとができるように……私は祈ってるからねっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 840,
+	},
+	block_00111 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0005", head="rim_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00203", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"…………っ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 845,
+	},
+	block_00112 = {
+		{"fg", ch="りみ", size="z2", mode=3, path=":fg/rim/z2/", file="rim_z2a0000", face="a0001", head="rim_z2a", lv=5, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rim_00204", ch="rim"},
+			},
+			ja = {
+				{
+					name = {"りみ"},
+					"──うん……わかった…………っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 850,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（振り絞るようなりみの声──",
+					{"rt2"},
+					"私は頷くフリをして、目を伏せた……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 855,
+	},
+	block_00114 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"excall", file="02薫・りみルート_5"},
+		{"text"},
+		linkback = "block_00113",
+		line = 862,
+	},
+	label = {
+		label01 = { block="block_00000", label=1 },
+		top = { block="block_00000", label=1 },
+		label02 = { block="block_00006", label=10 },
+		label03 = { block="block_00015", label=10 },
+		label99 = { block="block_00023", label=10 },
+		label11 = { block="block_00059", label=1 },
+		label12 = { block="block_00074", label=4 },
+		label13 = { block="block_00091", label=10 },
+	},
+}

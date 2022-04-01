@@ -1,0 +1,1256 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", time=2000, file="bg01a", path=":bg/"},
+		{"bgm", file="bgm002"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（午前中の授業を終えて昼休み。",
+					{"rt2"},
+					"私はなんとなく、チュチュちゃんのことが気になって",
+					{"rt2"},
+					"隣のクラスまで足を運んでいた）",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 13,
+	},
+	block_00001 = {
+		{"msgoff"},
+		{"bg", x=350, file="zbg01a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="チュチュ", size="z2", mode=3, resize=1, path=":fg/chu/z2/", file="chu_z2a0000", face="a0006", head="chu_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00001", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"………………",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 25,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（窓側の一番後ろの席。",
+					{"rt2"},
+					"楽しそうに談笑している周囲をよそに、",
+					{"rt2"},
+					"チュチュちゃんは一人退屈そうに校庭をながめていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 31,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（朝、見かけたときの不満げで、",
+					{"rt2"},
+					"でもどこか寂しそうな横顔が、その姿と重なる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 36,
+	},
+	block_00004 = {
+		{"msgoff"},
+		{"bg", file="bg01a", path=":bg/", sync=0},
+		{"fg", ch="チュチュ", size="z1", mode=3, resize=1, path=":fg/chu/z1/", file="chu_z1a0000", face="a0006", head="chu_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あの、こんにちはチュチュちゃん。",
+					{"rt2"},
+					"えっと……今、暇かな？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 47,
+	},
+	block_00005 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（なけなしの勇気を振り絞って声をかけると、",
+					{"rt2"},
+					"目線だけをこちらに向けてくる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 54,
+	},
+	block_00006 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00002", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"……アナタ、確か朝、校門で会ったわね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 59,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"覚えてくれてたんだ！",
+					{"rt2"},
+					"私、上原ひまり。よろしくね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 64,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（せいいっぱい明るい声で声をかけると、",
+					{"rt2"},
+					"仕方ない、というように私に向き直るチュチュちゃん）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 69,
+	},
+	block_00009 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0006", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00003", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"アナタによろしくされる覚えはないわ。それでワタシに何か用？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 75,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（どこか値踏みするような視線を感じつつ、",
+					{"rt2"},
+					"ここで逃げちゃダメっと、ぐっと足に力を込める）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 80,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"う、うん。実はチュチュちゃんが",
+					{"rt2"},
+					"あんまり学校に来てないって聞いて、",
+					{"rt2"},
+					"それでちょっと気になったというか……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 86,
+	},
+	block_00012 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0006", head="chu_z1a", lv=4, id=13},
+		{"fgact", ch="チュチュ", act="いいえ", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00004", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"学校なんてくだらない。",
+					{"rt2"},
+					"つまらない授業に、つまらないルール。",
+					{"rt2"},
+					"こんな場所に毎日通うなんてお断りだわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 94,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そうかな……？　学校にだって楽しいことはいっぱいあるよ！",
+					{"rt2"},
+					"だってほら、学校に来ればお友達もたくさんできるし！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 99,
+	},
+	block_00014 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0004", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00005", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"友達ができたらなんだって言うの？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 104,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"友達ができたら～……楽しいっ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 108,
+	},
+	block_00016 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00006", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"別に",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 113,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"でっ、でも私、チュチュちゃんと仲良くなりたいし、",
+					{"rt2"},
+					"チュチュちゃんのこと、もっと知りたいって思ってる！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 118,
+	},
+	block_00018 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0005", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私の言葉にチュチュちゃんは驚いたように目をしばたかせ、",
+					{"rt2"},
+					"やがてオモチャを見つけた猫のように",
+					{"rt2"},
+					"イタズラな笑みを浮かべた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 126,
+	},
+	block_00019 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg01a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="チュチュ", size="z2", mode=3, resize=1, path=":fg/chu/z2/", file="chu_z2a0000", face="a0002", head="chu_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00007", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"ふーん、そう……",
+					{"rt2"},
+					"それならひとつゲームをしましょう",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 137,
+	},
+	block_00020 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00008", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"これから少しだけアナタに付き合ってあげる。",
+					{"rt2"},
+					"その間にワタシに学校が楽しいと思わせることができたら",
+					{"rt2"},
+					"明日も学校に来てあげるわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 144,
+	},
+	block_00021 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0002", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00009", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"どうかしら？　やる？　やらない？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 149,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（まだ知り合ったばかりで、何が好きかもわからない相手。",
+					{"rt2"},
+					"ゲームにしては不利な条件だけど、",
+					{"rt2"},
+					"だからってここで引き下がるわけにはいかないよねっ）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 155,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"──わかった。私に任せて！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 159,
+	},
+	block_00024 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", rule="083r", vague=40, file="bg06a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"じゃじゃーん！　というわけで屋上にやってきました！",
+					{"rt2"},
+					"見て見て、このいい感じの景色！",
+					{"rt2"},
+					"絶好のお弁当スポットって感じでしょ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 173,
+	},
+	block_00025 = {
+		{"fg", ch="チュチュ", size="z1", mx=40, mode=3, resize=1, path=":fg/chu/z1/", file="chu_z1a0000", face="a0004", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00010", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"まだ４月よ？　外で食べるには風が冷たすぎるわ。",
+					{"rt2"},
+					"これじゃお弁当どころじゃないじゃない",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 180,
+	},
+	block_00026 = {
+		{"se", file="se007", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（初夏にもなればお弁当スポットとして賑わう屋上も",
+					{"rt2"},
+					"今はさすがに誰もいない。",
+					{"rt2"},
+					"吹き付ける風の冷たさに、私は思わず身を縮ませた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 188,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（う……さむっ！　確かにまだ早かったかも……！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 192,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"こ、これはまだウォーミングアップみたいなものだから……っ！",
+					{"rt2"},
+					"本当に紹介したいのは次の場所だよっ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 197,
+	},
+	block_00029 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0004", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00011", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"……期待してるわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 202,
+	},
+	block_00030 = {
+		{"se", stop=1, time=1000, id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", file="bg07a", path=":bg/", sync=0},
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", lv=4, id=13, sync=0},
+		{"extrans", rule="083r", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（次に私が案内したのは体育館。",
+					{"rt2"},
+					"運動部の人たちの声が響いている）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 220,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"やっぱり楽しいことって言ったらスポーツじゃないっ？",
+					{"rt2"},
+					"この時間はいつもバレー部が練習してるんだ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 225,
+	},
+	block_00032 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0006", head="chu_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00012", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"フン、ただのボール遊びでしょ？",
+					{"rt2"},
+					"興味を持ったことすらないわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 231,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（チュチュちゃんは、退屈そうに大きなあくびをしながら言った）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 235,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（と、その時──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 239,
+	},
+	block_00035 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg07a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="チュチュ", size="z2", mode=3, resize=1, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"se", file="se008", id=1},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"女子生徒"},
+					"危ない！　ボールが！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 253,
+	},
+	block_00036 = {
+		{"quake", mode="mw"},
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0005", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00013", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"ふわっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 262,
+	},
+	block_00037 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="チュチュ", time=250, speed=250, mx=-40, mode=-1, lv=5, id=13},
+		{"ex", time=100, func="wait"},
+		{"se", file="se013", id=2},
+		{"quake"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（突然飛んできたボールを避けようとして、",
+					{"rt2"},
+					"チュチュちゃんは思い切り床に倒れ込んだ）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 273,
+	},
+	block_00038 = {
+		{"se", stop=1, time=500, id=2},
+		{"bg", time=500, file="bg07a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（た、大変──！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 280,
+	},
+	block_00039 = {
+		{"select", label="label01", text="select"},
+		{"select", label="label02", text="select"},
+		{"select", label="label03", text="select"},
+		{"select", mode="sys", name="05_01_1"},
+		{"text"},
+		select = {
+			ja = {
+				"声をかけて意識を確認する",
+				"保健室に運ぶ",
+				"静かに見守る",
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 289,
+	},
+	block_00040 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", y=-100, file="zbg07a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私はとっさにチュチュちゃんの手をとって、",
+					{"rt2"},
+					"必死に呼びかける）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 306,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"チュチュちゃん、動ける？",
+					{"rt2"},
+					"頭とか打ってない？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 311,
+	},
+	block_00042 = {
+		{"cgdel", id=-1},
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0003", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00014", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"……そんな大声出さないで。",
+					{"rt2"},
+					"恥ずかしいじゃない",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 318,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（良かった……特に問題ないみたい）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 322,
+	},
+	block_00044 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0004", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00015", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"まったく……いちいちおおげさね。",
+					{"rt2"},
+					"ほら、もう大丈夫だから、さっさと次に行くわよ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 329,
+	},
+	block_00045 = {
+		{"excall", file="05チュチュルート_2"},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"と、とにかく保健室に運ばないと！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 343,
+	},
+	block_00046 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg07a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0005", head="chu_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00016", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"Wait、落ち着きなさい。そんなにたいしたことないわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 353,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"えーとえーと……でも頭をぶつけた時は",
+					{"rt2"},
+					"動かさないほうがいいんだっけ？",
+					{"rt2"},
+					"そしたら保健の先生に来てもらって……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 359,
+	},
+	block_00048 = {
+		{"quake", mode="mw"},
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0003", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00017", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"ヒマリ！　Stop！",
+					{"rt2"},
+					"問題ないって言ってるでしょ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 367,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"え……？　あ、ご、ごめん。",
+					{"rt2"},
+					"私つい……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 372,
+	},
+	block_00050 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0004", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00018", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"まったく……そんなに心配しなくても",
+					{"rt2"},
+					"ご覧の通り、ワタシはケガひとつないわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 378,
+	},
+	block_00051 = {
+		{"excall", file="05チュチュルート_2"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（チュチュちゃんって騒がれるのが嫌いみたいだし、",
+					{"rt2"},
+					"ここは静かに様子を見守ったほうがいいのかな……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 392,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そう考えて見守っていた私の背後から",
+					{"rt2"},
+					"バレーボールで遊んでいた生徒が駆け寄ってくる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 397,
+	},
+	block_00053 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"女子生徒"},
+					"ごめんね！　大丈夫だった！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 403,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"女子生徒"},
+					"とにかく、まずは保健室へ行こう！",
+					{"rt2"},
+					"一人で立てる？　肩、貸そうか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 408,
+	},
+	block_00055 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg07a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0006", head="chu_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00019", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"……必要ないわ。",
+					{"rt2"},
+					"放っておいてちょうだい",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 419,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（まだ痛みがあるのか、",
+					{"rt2"},
+					"チュチュちゃんはおぼつかない足でゆっくり立ち上がる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 424,
+	},
+	block_00057 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そして、チュチュちゃんはこちらにやってくると",
+					{"rt2"},
+					"立ちすくむ私を冷たい目で見上げる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 431,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あ、あの……チュチュちゃん、大丈夫？",
+					{"rt2"},
+					"私、その……騒いだりしないほうがいいのかなって……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 436,
+	},
+	block_00059 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00020", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"言い訳はいいわ。",
+					{"rt2"},
+					"アナタも結局、他の連中と同じね。",
+					{"rt2"},
+					"ワタシを遠くから見てるだけ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 443,
+	},
+	block_00060 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……っ！？　それは！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 449,
+	},
+	block_00061 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0006", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00021", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"やっぱり学校なんて……くだらないわね。",
+					{"rt2"},
+					"Bye、ヒマリ……もう二度と会うことはないでしょうね……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 456,
+	},
+	block_00062 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（冷ややかな声と眼差しだけを残し、",
+					{"rt2"},
+					"チュチュちゃんはゆっくりと体育館を後にする）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 465,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その後ろ姿を、私は見送ることしかできなかった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 469,
+	},
+	block_00064 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00063",
+		line = 475,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+		label01 = { block="block_00040", label=1 },
+		label02 = { block="block_00045", label=2 },
+		label03 = { block="block_00051", label=2 },
+	},
+}

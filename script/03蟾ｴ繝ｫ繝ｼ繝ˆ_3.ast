@@ -1,0 +1,1373 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", time=2000, file="bg18a", path=":bg/"},
+		{"bgm", file="bgm005"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そして……伝説の桜の樹開花予想日……）",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 12,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私は巴に言い出すこともできないまま……",
+					{"rt2"},
+					"なんとなく中庭には近づけずに、少し離れた場所で一人、",
+					{"rt2"},
+					"ぼんやりと考えごとをしていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 18,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（幼馴染なのに、ううん、幼馴染だから？",
+					{"rt2"},
+					"どうして本当に言いたいことのひとつも",
+					{"rt2"},
+					"言えなくなっちゃったんだろう。素直になれないんだろう）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 24,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00412", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ", "？？？"},
+					"ちょっと。",
+					{"rt2"},
+					"そこ、ワタシの縄張りなんだけど",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 28,
+	},
+	block_00004 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"わっ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"bg", file="zbg18a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234, sync=0},
+		{"fg", ch="チュチュ", size="z2", mode=3, resize=1, path=":fg/chu/z2/", file="chu_z2a0000", face="a0006", head="chu_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（急にかけられた声に驚いて振り向くと──",
+					{"rt2"},
+					"そこには、この前初めて話した小柄な女の子が立っていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 45,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（確かこの子は、飛び級したっていうすごい子……",
+					{"rt2"},
+					"えっと、チュチュ……ちゃん？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 50,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あ、あの、ごめんねチュチュちゃん。",
+					{"rt2"},
+					"私、どこか行ったほうがいいかな……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 55,
+	},
+	block_00008 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00413", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"いいわよ、別に。",
+					{"rt2"},
+					"どうせ年に数回来る程度だし",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 61,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そ、そっか……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 65,
+	},
+	block_00010 = {
+		{"quake", mode="mw"},
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0006", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00414", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"ふんっ、今日は特にサイテーな日よ！",
+					{"rt2"},
+					"中庭には絶対近づかない！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 73,
+	},
+	block_00011 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00415", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"こんなところに突っ立ってて、アナタもワタシと同じ？",
+					{"rt2"},
+					"中庭で騒いでる連中に混ざりたくないってこと？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 79,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"私……私は、よくわからないかな……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 83,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"小さい頃からの、幼馴染なんだけど……",
+					{"rt2"},
+					"本当は桜の樹、見に行こうって誘いたいのに",
+					{"rt2"},
+					"なんて言ったらいいかわからなくって",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 89,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"何気ない話とか、売り言葉に買い言葉みたいなのなら",
+					{"rt2"},
+					"言えるのに、なんで肝心なことは言えないんだろう……って",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 94,
+	},
+	block_00015 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0005", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00416", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"What！？",
+					{"rt2"},
+					"なによそれ！！",
+					{"rt2"},
+					"中庭にたむろしているヤツらより、よっぽどタチが悪いわ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 101,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"えっ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 105,
+	},
+	block_00017 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0006", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00417", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"アナタ、一体その人となんのために一緒にいるの？",
+					{"rt2"},
+					"うまく言えないとか、それはただ逃げてるだけね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 111,
+	},
+	block_00018 = {
+		{"fg", ch="チュチュ", size="z2", mode=3, path=":fg/chu/z2/", file="chu_z2a0000", face="a0001", head="chu_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00418", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"本気で向き合えないのなら──そんな関係やめてしまいなさい！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 116,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"っ……！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 120,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（逃げてる、だけ……",
+					{"rt2"},
+					"そうかも、しれない……私……私は……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 125,
+	},
+	block_00021 = {
+		{"msgoff"},
+		{"bg", file="bg18a", path=":bg/", sync=0},
+		{"fg", ch="チュチュ", size="z1", mode=3, resize=1, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", x=-230, lv=4, id=9, sync=0},
+		{"extrans", time=500},
+		{"fg", ch="巴", size="z1", mx=40, mode=3, resize=1, path=":fg/tom/z1/", file="tom_z1a0000", face="a0006", head="tom_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00419", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"おい、お前！",
+					{"rt2"},
+					"アタシの幼馴染になにしてんだ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 137,
+	},
+	block_00022 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"えっ……！？",
+					{"rt2"},
+					"と、巴……！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 144,
+	},
+	block_00023 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0006", head="chu_z1a", x=-230, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00420", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"なによ、急に割りこんできて。",
+					{"rt2"},
+					"アナタこそなんなの？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 150,
+	},
+	block_00024 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0000", face="a0006", head="tom_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00421", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"そんなことどうだっていい！",
+					{"rt2"},
+					"お前が誰だか知らないけど、",
+					{"rt2"},
+					"ひまりにケンカ吹っかけるって言うならアタシが相手だ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 157,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私を背中に庇って、そう啖呵を切る巴の姿は──",
+					{"rt2"},
+					"とっても、カッコよくて……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 162,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（でも……チュチュちゃんの言ったことも、正しくって……",
+					{"rt2"},
+					"私、私は……！　もう、逃げない……！！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 167,
+	},
+	block_00027 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-300, file="zbg18a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234, sync=0},
+		{"fg", ch="巴", size="z2", mode=3, resize=1, path=":fg/tom/z2/", file="tom_z2a0000", face="a0006", head="tom_z2a", lv=5, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"違うの、巴……！",
+					{"rt2"},
+					"本当に悪いのは……私だよ！　チュチュちゃんは悪くないっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 179,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（堰を切ったように涙があふれる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 183,
+	},
+	block_00029 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0005", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00422", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"えっ？",
+					{"rt2"},
+					"ひまり……だ、大丈夫か？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 189,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"私っ……いつも巴に素直になれなくて、",
+					{"rt2"},
+					"巴への気持ち、半分も伝えられてない……！",
+					{"rt2"},
+					"それを叱ってくれてただけなの……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 195,
+	},
+	block_00031 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0005", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00423", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"……な、なんだって？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 202,
+	},
+	block_00032 = {
+		{"msgoff"},
+		{"bg", file="bg18a", path=":bg/", sync=0},
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0006", head="chu_z1a", x=-230, lv=4, id=9, sync=0},
+		{"fg", ch="巴", size="z1", mode=3, resize=1, path=":fg/tom/z1/", file="tom_z1a0000", face="a0005", head="tom_z1a", x=230, lv=4, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00424", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"はあ……",
+					{"rt2"},
+					"まったく、ホントバカバカしいわ……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 213,
+	},
+	block_00033 = {
+		{"fg", ch="チュチュ", size="z1", mode=3, path=":fg/chu/z1/", file="chu_z1a0000", face="a0001", head="chu_z1a", x=-230, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chu_00425", ch="chu"},
+			},
+			ja = {
+				{
+					name = {"チュチュ"},
+					"勝手に勘違いして熱くなる前に、",
+					{"rt2"},
+					"目の前の人間をちゃんと見たら？　アナタたち。",
+					{"rt2"},
+					"じゃ、ワタシはつまらないからもう行くわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 220,
+	},
+	block_00034 = {
+		{"fg", ch="チュチュ", mx=-40, mode=-1, lv=4, id=9},
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0000", face="a0006", head="tom_z1a", x=230, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00426", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"目の、前の……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 226,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うっ……ぐすっ……",
+					{"rt2"},
+					"ごめん、ごめんね、巴……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 231,
+	},
+	block_00036 = {
+		{"bgm", stop=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-300, file="zbg18a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234, sync=0},
+		{"fg", ch="巴", size="z2", mode=3, resize=1, path=":fg/tom/z2/", file="tom_z2a0000", face="a0006", head="tom_z2a", lv=5, id=10, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00427", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ひまり……",
+					{"rt2"},
+					"それは、アタシだって同じだ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 243,
+	},
+	block_00037 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0006", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00428", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"今日、ずっとひまりのことを探してた──",
+					{"rt2"},
+					"どうしても伝えたいことがあったから",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 249,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"え……？",
+					{"rt2"},
+					"私……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 254,
+	},
+	block_00039 = {
+		{"bgm", file="bgm004"},
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0006", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00429", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"頼む。アタシの側から、いなくならないでくれ。",
+					{"rt2"},
+					"瀬田先輩じゃなくて、アタシにお前のことを守らせてくれ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 262,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"か……っ、薫先輩となんの関係があるの？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 266,
+	},
+	block_00041 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0006", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00430", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"だって、お前が今日一緒に桜の樹を見に行くのって……",
+					{"rt2"},
+					"瀬田先輩だろ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 272,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（思いもしない言葉に、思わず目をじっと見つめてしまう。",
+					{"rt2"},
+					"でも、巴の目は冗談を言っているようには見えなくて……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 277,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……はぁ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 281,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（呆れる気持ちをこらえつつ、",
+					{"rt2"},
+					"どこか私は納得したような気持ちになる。",
+					{"rt2"},
+					"……あぁ、私の大切な幼馴染はこういう人だったな）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 287,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……ホント、巴って肝心なところで鈍いんだから。",
+					{"rt2"},
+					"そんなのただの強がりに決まってるでしょ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 292,
+	},
+	block_00046 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0003", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0001", head="tom_z2a", lv=5, id=10},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00431", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"あれ？　そうじゃ……なかったのか？",
+					{"rt2"},
+					"……はあ、なんだよ……アタシの勘違いだったんだな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 299,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（言葉とは裏腹にほっとしたような横顔。",
+					{"rt2"},
+					"鈍いこの人にはこのくらいわかりやすく言わないと、",
+					{"rt2"},
+					"きっとこの先も伝わらないんだろうな）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 305,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……けど！",
+					{"rt2"},
+					"一緒に桜の樹を見たい人がいる、っていうのは本当！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 310,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"私たち幼馴染だよ！？",
+					{"rt2"},
+					"誰のことか、いい加減気づいてよっ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 315,
+	},
+	block_00050 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0005", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00432", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"え……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 320,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（勇気を出して、真っすぐに見つめた巴の唇が、",
+					{"rt2"},
+					"なにかを言おうとするように薄く開いている。",
+					{"rt2"},
+					"まるで、次の言葉を探してるみたいに……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 326,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そんな私たちの間を、はらり──",
+					{"rt2"},
+					"どこからか、桜の花びらが１枚、風に乗って過ぎていった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 331,
+	},
+	block_00053 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0001", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00433", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"……行くか",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 336,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うん",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 340,
+	},
+	block_00055 = {
+		{"bg", time=500, file="bg18a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（難しい言葉なんて、いらなかったのかもしれない。",
+					{"rt2"},
+					"私たちは、そんなほんの短い言葉だけを交わして、",
+					{"rt2"},
+					"ゆっくりと歩き出した）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 348,
+	},
+	block_00056 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"bg", rule="083r", vague=40, file="bg15a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"わあ……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 362,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（１０年に１度しか咲かないと言われる、伝説の桜。",
+					{"rt2"},
+					"それはいつの間にか満開に咲き誇り──",
+					{"rt2"},
+					"私は思わず、心のままにつぶやいていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 368,
+	},
+	block_00058 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg15a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234, sync=0},
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0001", head="tom_z2a", lv=5, id=10, sync=0},
+		{"extrans", time=500},
+		{"bgm", file="bgm006"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……私、巴と、いつまでも一緒にいたい",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 385,
+	},
+	block_00059 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0000", face="a0006", head="tom_z2a", lv=5, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00434", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"今のままじゃ、ダメなんだな？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 390,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うん。",
+					{"rt2"},
+					"このままじゃ、絶対にいつか……後悔しちゃうから",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 395,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"巴が誰かと一緒に、この桜を見ているところを想像して……",
+					{"rt2"},
+					"何度も胸が苦しくなったの",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 400,
+	},
+	block_00062 = {
+		{"bg", file="ev_com_c03_01", path=":ev/ev_com_c03/", set="ev_com_c03"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"今までも、この先も。",
+					{"rt2"},
+					"……巴の側にいるのは、私がいい",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 407,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00435", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"っ……！",
+					{"rt2"},
+					"……アタシも、正直言うと、ずっと強がってた",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 414,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00436", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"それに、瀬田先輩のことがなければ──",
+					{"rt2"},
+					"ひまりはなんだかんだ、一緒にいてくれると思いこんでたんだ。",
+					{"rt2"},
+					"悪い甘え方だよな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 421,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00437", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"それじゃダメ、だよな。",
+					{"rt2"},
+					"──約束するよ、ひまり。アタシが、ひまりを幸せにしてみせる",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 428,
+	},
+	block_00066 = {
+		{"bg", sync=0, face="1", file="ev_com_c03_02", time=400, path=":ev/ev_com_c03/", set="ev_com_c03"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"～っ……！",
+					{"rt2"},
+					"巴ぇ～っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 435,
+	},
+	block_00067 = {
+		{"bg", file="bg12e", path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00281", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『満開の桜の樹の下……私はあなたと──』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 442,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00282", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『これは私にとって嘘のような、４月のある１日の話──』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 445,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00438", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『強がりで、素直じゃなくて──",
+					{"rt2"},
+					"でも、最高にカッコいい私の幼馴染』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 449,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00439", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『きっとこの日のことは──",
+					{"rt2"},
+					"二人でラーメンを食べるたびに思い出すかも！』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 453,
+	},
+	block_00071 = {
+		{"eval", exp="g.tom=1"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00070",
+		line = 461,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

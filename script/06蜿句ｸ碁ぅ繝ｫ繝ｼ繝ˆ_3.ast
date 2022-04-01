@@ -1,0 +1,1764 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", stop=1, time=2000},
+		{"se", stop=1, id=-1, time=2000},
+		{"vostop", stop=1, time=2000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", speed=120000, time=2000, file="zbg12a", path=":bg/", x2=384, y2=0, x=-384, y=0, ax=1024, ay=720, bx=-384, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そして迎えた、発表会当日──",
+					{"rt2"},
+					"友希那先輩の細い足首に巻かれていた包帯は、",
+					{"rt2"},
+					"すでになくなっていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（どうしても納得できないと言っていた歌も、",
+					{"rt2"},
+					"友希那先輩の中で満足いくクオリティになったみたい）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 19,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（この前、廊下でたまたま会った時にかけられた、",
+					{"rt2"},
+					"『本番、楽しみにしてて』という言葉から、",
+					{"rt2"},
+					"私はそれを確信していた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 25,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（学園のみんなも、発表会を楽しみにしていたようだった。",
+					{"rt2"},
+					"校内の楽しそうな空気に、つい鼻歌がこぼれてしまう）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 30,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（だったのだけれど──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"bg", file="bg02a", path=":bg/", sync=0},
+		{"fg", ch="友希那", size="z1", mode=3, resize=1, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0006", head="yuk_z1a", lv=4, id=13, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm005"},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ゆ、友希那先輩！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 48,
+	},
+	block_00006 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0001", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（廊下の中央で、珍しく慌てた様子の友希那先輩がいた。",
+					{"rt2"},
+					"不安そうに周囲に目を向けていたその顔が、私に向く）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 59,
+	},
+	block_00007 = {
+		{"msgoff"},
+		{"bg", file="zbg02a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="友希那", size="z2", mode=3, resize=1, path=":fg/yuk/z2/", file="yuk_z2a0000", face="a0001", head="yuk_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その瞬間、友希那先輩は怒ったような、真剣な表情で、",
+					{"rt2"},
+					"駆け寄ってきた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 70,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"友希那先輩、一体なにが……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 74,
+	},
+	block_00009 = {
+		{"fg", ch="友希那", size="z2", mode=3, path=":fg/yuk/z2/", file="yuk_z2a0000", face="a0004", head="yuk_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00487", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"……猫が、いないのよ。",
+					{"rt2"},
+					"体育館裏の……朝からずっと、姿が見えないわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 80,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そう答えながらも、",
+					{"rt2"},
+					"視線はどこかに行ってしまった猫を探すように揺れている。",
+					{"rt2"},
+					"こんな友希那先輩の様子を見るのは初めてだった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 86,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"えっ！？",
+					{"rt2"},
+					"で、でもそこに住み着いてたはずじゃ……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 91,
+	},
+	block_00012 = {
+		{"fg", ch="友希那", size="z2", mode=3, path=":fg/yuk/z2/", file="yuk_z2a0000", face="a0004", head="yuk_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="友希那", size="z2", mode=3, path=":fg/yuk/z2/", file="yuk_z2a0000", face="a0001", head="yuk_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00488", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"ええ。",
+					{"rt2"},
+					"……なにかあったのかもしれない",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 98,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（なにか、という答えのない漠然とした響きが",
+					{"rt2"},
+					"私の心をひどく不安にさせた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 103,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"とっ、とにかく！",
+					{"rt2"},
+					"もう一回体育館裏に行きましょう！",
+					{"rt2"},
+					"もしかしたら戻ってきてるかもしれないし！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 109,
+	},
+	block_00015 = {
+		{"bg", time=500, file="bg02a", path=":bg/"},
+		{"fg", ch="透子", size="z1", mx=-40, mode=3, resize=1, path=":fg/tok/z1/", file="tok_z1a0000", face="a0001", head="tok_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（頭をよぎる疑念を振り払うように、",
+					{"rt2"},
+					"私たちは急いで体育館裏へと向かう。",
+					{"rt2"},
+					"その途中、透子ちゃんが向こうから歩いてくるのが見えた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 119,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（インフルエンサーとしてSNS界隈で有名な透子ちゃんは、",
+					{"rt2"},
+					"流行りの情報はもちろんのこと、校内の噂話にもくわしい）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 124,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そうだ……！　透子ちゃんなら",
+					{"rt2"},
+					"なにか知ってるかも……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 129,
+	},
+	block_00018 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg02a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="透子", size="z2", mode=3, resize=1, path=":fg/tok/z2/", file="tok_z2a0000", face="a0001", head="tok_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"透子ちゃん！！",
+					{"rt2"},
+					"ちょっと聞きたいことがあるんだけどいいかな！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 141,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tok_00489", ch="tok"},
+			},
+			ja = {
+				{
+					name = {"透子"},
+					"あ、こんにちはー。",
+					{"rt2"},
+					"ひまりさんと友希那さんって、",
+					{"rt2"},
+					"なんか珍しい組み合わせですね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 146,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tok_00490", ch="tok"},
+			},
+			ja = {
+				{
+					name = {"透子"},
+					"めっちゃ焦ってるっぽいですけど、なんかありました？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 149,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"学校の中で、猫を見なかったかな？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 153,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tok_00491", ch="tok"},
+			},
+			ja = {
+				{
+					name = {"透子"},
+					"猫ですか？　えーっ？",
+					{"rt2"},
+					"ん～、見てないですねー",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 157,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そ、そっか……透子ちゃんも知らないか……",
+					{"rt2"},
+					"ごめんね、ありがとう……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 162,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tok_00492", ch="tok"},
+			},
+			ja = {
+				{
+					name = {"透子"},
+					"大丈夫です？　あたしも探しましょっか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 165,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00493", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"大丈夫よ。それじゃ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 168,
+	},
+	block_00026 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg02a", path=":bg/", sync=0},
+		{"fg", ch="透子", size="z1", mode=3, resize=1, path=":fg/tok/z1/", file="tok_z1a0000", face="a0001", head="tok_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（初めて言葉を交わした時のような素っ気ない返事……",
+					{"rt2"},
+					"さっさと友希那先輩は歩き始めてしまう）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 180,
+	},
+	block_00027 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"わっ、ま、待ってください！",
+					{"rt2"},
+					"あのっ、透子ちゃんホントにありがとね！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 187,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tok_00494", ch="tok"},
+			},
+			ja = {
+				{
+					name = {"透子"},
+					"いえいえ！",
+					{"rt2"},
+					"猫、見つかるといいですね！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 191,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（透子ちゃんは、友希那先輩の素っ気なさにも",
+					{"rt2"},
+					"全然動じてないみたいに、軽く手を振って見送ってくれた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 196,
+	},
+	block_00030 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", file="bg18a", path=":bg/", sync=0},
+		{"fg", ch="友希那", size="z1", mode=3, resize=1, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0004", head="yuk_z1a", lv=4, id=13, sync=0},
+		{"extrans", rule="083r", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そして、体育館裏に到着する……",
+					{"rt2"},
+					"確かに、猫の姿はどこにもなかった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 213,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"い、いない……一体どこに……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 217,
+	},
+	block_00032 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0006", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00495", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"……人懐っこい子だったもの。",
+					{"rt2"},
+					"もしかしたら、誰かに拾われたのかもしれない",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 223,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そうつぶやく友希那先輩は、",
+					{"rt2"},
+					"自分に言い聞かせてるみたいで──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 228,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"た、確かにその可能性もありますよね！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 232,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（せいいっぱい明るい声を出してみるけど、",
+					{"rt2"},
+					"その空虚さは自分自身が一番よくわかっていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 237,
+	},
+	block_00036 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0004", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00496", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"…………けど、そうではないかもしれない",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 242,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（険しい表情で、沈黙してしまう友希那先輩。",
+					{"rt2"},
+					"そろそろ発表会も迫っているのに、こんな状態のまま",
+					{"rt2"},
+					"友希那先輩を送り出すなんて……私には、できない！！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 248,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あの……私、がんばって探します！",
+					{"rt2"},
+					"任せてください！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 253,
+	},
+	block_00039 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0005", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00497", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"どうして、あなたがそこまで……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 258,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……私、あの日音楽室で聴いた友希那先輩の歌声に、",
+					{"rt2"},
+					"ホントに感動したんです",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 263,
+	},
+	block_00041 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0001", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"でも、心配なことがあったままじゃ、",
+					{"rt2"},
+					"歌にだって支障が出ちゃうかも……って思って",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 270,
+	},
+	block_00042 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0004", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00498", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"それは……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 275,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"私……歌のことは、お手伝いできませんけど、",
+					{"rt2"},
+					"猫を探すことなら手伝えます！　やらせてください！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 280,
+	},
+	block_00044 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0001", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00499", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"……わかったわ。一緒に、お願いできるかしら",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 285,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"わかりました！",
+					{"rt2"},
+					"じゃあここをもう１回探してみましょう！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 290,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（友希那先輩と見つめ合い頷く。",
+					{"rt2"},
+					"猫ちゃん、無事でいてね……！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 295,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"猫ちゃん、どこぉ～！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 299,
+	},
+	block_00048 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"msgoff"},
+		{"bg", file="bg18a", path=":bg/", sync=0},
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0004", head="yuk_z1a", lv=4, id=13, sync=0},
+		{"extrans", rule=139, vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ぜ、全然見つからない……一体どこに……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 315,
+	},
+	block_00049 = {
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0004", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00500", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"あと、他に探していない場所は──",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 322,
+	},
+	block_00050 = {
+		{"excall", label="caton", cond="f.yuk>=1"},
+		{"bg", x=-10, y=180, zoom=120, time=500, file="zbg18a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234},
+		{"select", file="06友希那ルート_4", text="select"},
+		{"select", file="06友希那ルート_4", text="select"},
+		{"select", file="06友希那ルート_4", text="select"},
+		{"select", mode="sys", name="06_03_1"},
+		{"text"},
+		select = {
+			ja = {
+				"花壇の奥",
+				"体育用具入れの上",
+				"体育館裏以外",
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 347,
+	},
+	block_00051 = {
+		{"bg", x=-10, y=180, zoom=120, time=500, file="zbg18e", path=":bg/", ax=1024, ay=594, bx=-384, by=-234},
+		{"select", label="label01", pre="select_pre", text="select"},
+		{"select", file="06友希那ルート_4", text="select"},
+		{"select", file="06友希那ルート_4", text="select"},
+		{"select", file="06友希那ルート_4", text="select"},
+		{"select", mode="sys", name="06_03_1"},
+		{"text"},
+		select = {
+			ja = {
+				" ",
+				"花壇の奥",
+				"体育用具入れの上",
+				"体育館裏以外",
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 357,
+	},
+	block_00052 = {
+		{"bgm", stop=1},
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……あっ！！",
+					{"rt2"},
+					"友希那先輩、あそこ……！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 372,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00501", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"あんなところに……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 377,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私が指さした先は、少し離れた木の上。",
+					{"rt2"},
+					"そこから、あのしゅるんと長い尻尾が見えていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 382,
+	},
+	block_00055 = {
+		{"bgm", file="bgm001"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"下のほうを探しても見つからないわけだよ～……",
+					{"rt2"},
+					"猫ちゃ～んっ、降りておいで～！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 389,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私たちの声に猫はおそるおそる、というように顔をのぞかせる。",
+					{"rt2"},
+					"もしかして、降りられなくなっちゃったのかな……？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 394,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"大丈夫だよ、私たちがいるから！",
+					{"rt2"},
+					"怖くないよ、降りておいで～！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 399,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00502", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"降りてきて、お願いだから……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 404,
+	},
+	block_00059 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg18a", path=":bg/", sync=0},
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0004", head="yuk_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（振り絞るような、友希那先輩の声。",
+					{"rt2"},
+					"私たちの必死の呼びかけが伝わったのか、",
+					{"rt2"},
+					"猫は勇気を出したように飛び降りた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 417,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（──私たちがいるのと真反対側に）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 421,
+	},
+	block_00061 = {
+		{"quake", mode="mw"},
+		{"fg", ch="友希那", size="z1", mode=3, path=":fg/yuk/z1/", file="yuk_z1a0000", face="a0005", head="yuk_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ええ～っ！？",
+					{"rt2"},
+					"なんでこっちじゃなくてそっち側行っちゃうかなー！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 430,
+	},
+	block_00062 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（植えこみを飛び越えて、手を伸ばす──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 436,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（指先が、あの長い尻尾に触れ──",
+					{"rt2"},
+					"瞬間、猫の体を抱きかかえていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 441,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"はぁはぁ……",
+					{"rt2"},
+					"よかった……今度は、届いたっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 446,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"友希那先輩、猫、無事ですよ……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 450,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00503", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"もう、この子ったら。",
+					{"rt2"},
+					"心配させて……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 454,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"はぁ、ほんとによかった……あれ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 458,
+	},
+	block_00068 = {
+		{"bgm", stop=1},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="ev_com_c06_01", path=":ev/ev_com_c06/", set="ev_com_c06"},
+		{"bgm", file="bgm006"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（腕の中で大人しくしている猫の頭に──",
+					{"rt2"},
+					"ふわり、桜の花びらが舞い落ちる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 476,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ここって……中庭……？",
+					{"rt2"},
+					"……あっ！　あの樹って……！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 481,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（あまりに必死すぎて、植えこみの先が",
+					{"rt2"},
+					"中庭につながってたなんて、気づかなかった。",
+					{"rt2"},
+					"けれど、あの伝説の桜の樹が──満開に咲き誇っている）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 487,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"わあ……すごい……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 491,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00504", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"……そう。",
+					{"rt2"},
+					"そういうこと、だったのね……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 504,
+	},
+	block_00073 = {
+		{"bg", sync=0, face="1", file="ev_com_c06_02", time=400, path=":ev/ev_com_c06/", set="ev_com_c06"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"？　なにがですか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 510,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00505", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"今日の発表会、",
+					{"rt2"},
+					"私は満足のいく歌に仕上げてきたつもりだった。",
+					{"rt2"},
+					"だけど、なぜかそれに確信を持てなかった",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 518,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00506", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"どこか物足りないような感覚……",
+					{"rt2"},
+					"その感覚はあなたと会うごとに、高まっていったわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 525,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00507", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"でも……今、あなたとこの桜を見て……",
+					{"rt2"},
+					"やっと、その正体がわかったの",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 531,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"それは──",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 535,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00508", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"──『幸せを分かち合う誰か』。",
+					{"rt2"},
+					"私の歌を……想いを、本当に届けたいと強く思う、誰か",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 541,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00509", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"私はずっと、自分のためだけに歌ってきたの",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 546,
+	},
+	block_00080 = {
+		{"bg", sync=0, face="1", file="ev_com_c06_03", time=400, path=":ev/ev_com_c06/", set="ev_com_c06"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00510", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"……でもこれからは、あなたのために歌いたい。",
+					{"rt2"},
+					"私の想いを……幸せも不安も分かち合ってくれた。",
+					{"rt2"},
+					"そんな、あなたのために",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 556,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ゆ……友希那先輩……っ！",
+					{"rt2"},
+					"私でいいんですか……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 561,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00511", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"あなた『で』、じゃないわ。",
+					{"rt2"},
+					"あなた『が』いいの",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 567,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00512", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"他でもないあなたといて、このことに気づけたのだから",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 572,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 576,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私は泣いてしまいそうになりながら、必死にうなずく。",
+					{"rt2"},
+					"嬉しさのあまり言葉が詰まって、声にならなかった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 581,
+	},
+	block_00086 = {
+		{"bg", x=30, y=130, zoom=80, time=500, file="zev_com_c06_03", path=":ev/ev_com_c06/", set="ev_com_c06", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00513", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"聴いてもらえるかしら？",
+					{"rt2"},
+					"あなたのために歌う、私の歌",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 589,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"も、もちろんです……っ",
+					{"rt2"},
+					"聴かせてください！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 594,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_yuk_00514", ch="yuk"},
+			},
+			ja = {
+				{
+					name = {"友希那"},
+					"……最高の歌を聴かせると約束するわ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 599,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そう言った、友希那先輩は……",
+					{"rt2"},
+					"まるで青薔薇のつぼみが柔らかく花開くように、",
+					{"rt2"},
+					"優しく、微笑んでくれていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 605,
+	},
+	block_00090 = {
+		{"bg", file="bg12e", path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00281", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『満開の桜の樹の下……私はあなたと──』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 612,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00282", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『これは私にとって嘘のような、４月のある１日の話──』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 615,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00515", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『青薔薇のような気高い先輩は、",
+					{"rt2"},
+					"言葉で気持ちを伝えるのがちょっとだけ苦手で……』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 619,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00516", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『でもその歌声で、どんな言葉よりも雄弁に",
+					{"rt2"},
+					"自分の気持ちを伝えてくれる。世界でたった一人──私だけに』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 623,
+	},
+	block_00094 = {
+		{"eval", exp="g.yuk=1"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00093",
+		line = 631,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+		tes = { block="block_00049", label=1 },
+		caton = { block="block_00051", label=1 },
+		label01 = { block="block_00052", label=1 },
+	},
+}

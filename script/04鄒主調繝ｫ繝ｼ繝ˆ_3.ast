@@ -1,0 +1,1719 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm005"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg16a", path=":bg/", sync=0},
+		{"fg", ch="美咲", size="z1", mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1a0300", face="a0001", head="mis_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（とにかく何か話して、会話を続けなきゃ……！）",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 15,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（背中のフェンスに身を預け、頭をフル回転させてみる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 19,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……あ、そうっ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 23,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あ、あれだよね……！　私ってホントにテニスがヘタだよね～！",
+					{"rt2"},
+					"今日の試合も美咲ちゃんに迷惑かけちゃったし",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 28,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"最後も私のダブルフォルトだったもんね……",
+					{"rt2"},
+					"あ～あ、ホント最悪だったよ～～、ごめんね～～",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 33,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（違う……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 37,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"美咲ちゃんはテニス部に入ってから、",
+					{"rt2"},
+					"どんどんうまくなっていったけど、私はホントにダメダメで……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 42,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"それなのに、",
+					{"rt2"},
+					"私とずっとペアを組んでくれてありがとね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 47,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（違うよ……",
+					{"rt2"},
+					"私が言いたいのはこんなことじゃない……っ）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 52,
+	},
+	block_00009 = {
+		{"bg", speed=90000, file="zbg16a", path=":bg/", x2=300, y2=234, x=300, y=-234, ax=1024, ay=594, bx=-384, by=-234},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（だけど一度口に出した言葉は止まらなくて──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 58,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……あ！",
+					{"rt2"},
+					"もし私とペア組むのが嫌になっちゃったら、全然言ってね！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 63,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（本当に言いたいことは全然うまく言えないのに、",
+					{"rt2"},
+					"言いたくないことは次から次へと出てきてしまって──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 68,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"きっと美咲ちゃんは私なんかより、",
+					{"rt2"},
+					"もっとうまい子とペアを組んだほうがいい気がするなっ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 73,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"私がうまくなるのを待ってたら……",
+					{"rt2"},
+					"いつまでかかるかわからないから……っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 78,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その瞬間──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 82,
+	},
+	block_00015 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg16a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234, sync=0},
+		{"fg", ch="美咲", size="z2", mode=3, resize=1, path=":fg/mis/z2/", file="mis_z2a0300", face="a0006", head="mis_z2a", lv=5, id=13, sync=0},
+		{"extrans"},
+		{"msgon"},
+		{"se", file="se006", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（美咲ちゃんの手が私のほっぺたをかすめ、",
+					{"rt2"},
+					"後ろのフェンスをグッと掴んだ）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 97,
+	},
+	block_00016 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="美咲", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0300", face="a0006", head="mis_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00318", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"上原さんってさ──",
+					{"rt2"},
+					"待ってるほうの気持ち、考えたことある？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 105,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……え？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 109,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（怒気をはらんだ囁き声……",
+					{"rt2"},
+					"私は吸い込まれるように美咲ちゃんの瞳を見つめた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 114,
+	},
+	block_00019 = {
+		{"fg", ch="美咲", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0300", face="a0006", head="mis_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00319", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"上原さんは、なにもわかってない……",
+					{"rt2"},
+					"あたしのこと、なんにもわかってない……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 120,
+	},
+	block_00020 = {
+		{"fg", ch="美咲", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0300", face="a0006", head="mis_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00320", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"入学してからずっとペアを組んでるんだよ。",
+					{"rt2"},
+					"あたしは上原さんがなにを考えてるかだいたいわかるよ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 126,
+	},
+	block_00021 = {
+		{"fg", ch="美咲", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0300", face="a0006", head="mis_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00321", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"だってわかりたかったから！",
+					{"rt2"},
+					"上原さんが何を考えてるのかなってずっと考えてきたから……！",
+					{"rt2"},
+					"なのに上原さんは……っ……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 133,
+	},
+	block_00022 = {
+		{"fg", ch="美咲", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0300", face="a0006", head="mis_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00322", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"……いい加減わかってよ……",
+					{"rt2"},
+					"あたしは、上原さんのこと……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 139,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（……え？　私のこと……？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 143,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私のことを……なに？　その先にはどんな言葉が続くの？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 147,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その先を聞かせて……っ。",
+					{"rt2"},
+					"だけど私の切実な願いは届くことなく──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 152,
+	},
+	block_00026 = {
+		{"fg", ch="美咲", size="z2", mode=3, path=":fg/mis/z2/", file="mis_z2a0300", face="a0004", head="mis_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00323", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"──やめた",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 157,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……え？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 161,
+	},
+	block_00028 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg16a", path=":bg/", sync=0},
+		{"fg", ch="美咲", size="z1", mode=3, resize=1, path=":fg/mis/z1/", file="mis_z1a0300", face="a0001", head="mis_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ゆっくりとフェンスから手を離し、",
+					{"rt2"},
+					"美咲ちゃんは困ったように私へと微笑む）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 173,
+	},
+	block_00029 = {
+		{"fg", ch="美咲", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0300", face="a0003", head="mis_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00324", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"ごめん、ね……",
+					{"rt2"},
+					"なんか、変だよねあたし……ホント忘れて……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 179,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（なんか言わなきゃ、なんか言わなきゃ……っ）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 183,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（言葉はなにも出てこないのに、",
+					{"rt2"},
+					"焦った気持ちだけが溢れ出す）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 188,
+	},
+	block_00032 = {
+		{"fg", ch="美咲", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0300", face="a0003", head="mis_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="美咲", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0300", face="a0002", head="mis_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00325", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"その……次の試合は……勝とう、ね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 194,
+	},
+	block_00033 = {
+		{"fg", ch="美咲", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0300", face="a0001", head="mis_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="美咲", size="z1", mode=3, path=":fg/mis/z1/", file="mis_z1a0300", face="a0002", head="mis_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00326", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"それじゃあ、あたし行くね……",
+					{"rt2"},
+					"次の試合の時は遅刻しないように頼むよ……はは",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 201,
+	},
+	block_00034 = {
+		{"bg", file="bg12b", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（何事もなかったかのように去っていく美咲ちゃん。",
+					{"rt2"},
+					"その背中がどんどん遠ざかっていく）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 208,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その背中が見えなくなる前に──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 212,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（言わないと……っ）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 216,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（……じゃないと、私──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 220,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（一生、後悔しちゃうから…………っ！！）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 224,
+	},
+	block_00039 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"美咲ちゃんっ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 232,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（夕陽の中に溶けてしまうくらい遠くの背中に向けて叫んだ。",
+					{"rt2"},
+					"思いっきり……私の膨れた気持ちくらい大きな声で──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 237,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"桜の樹の下で待ってる！",
+					{"rt2"},
+					"私、美咲ちゃんのこと待ってるから！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 244,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私の声が届いたのか、美咲ちゃんは一瞬足を止めたあと、",
+					{"rt2"},
+					"振り返らず、足早に去っていった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 249,
+	},
+	block_00043 = {
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bg", time=2000, file="bg15a", path=":bg/"},
+		{"bgm", file="bgm005"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そして翌日──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 264,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私は、誰よりも早く中庭に来て、桜の樹を見上げていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 268,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（風に舞い散る花びら……",
+					{"rt2"},
+					"周りには少しずつ人が増え始めている）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 273,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"美咲ちゃん、来てくれるかな……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 277,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（もう、１時間も待ってるけど……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 281,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（昨日の言葉だって、ちゃんと届いていたかわからないし……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 285,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私は──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 289,
+	},
+	block_00050 = {
+		{"select", label="label01", text="select"},
+		{"select", file="04美咲ルート_4", label="label02", text="select"},
+		{"select", file="04美咲ルート_4", label="label03", text="select"},
+		{"select", mode="sys", name="04_03_1"},
+		{"text"},
+		select = {
+			ja = {
+				"もうしばらく待ってみる",
+				"美咲ちゃんに電話する",
+				"この場を去る",
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 298,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"美咲ちゃんには、いっつも待ってもらってるんだもん……っ。",
+					{"rt2"},
+					"今日は、とことん待たなきゃだよね……っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 309,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（誰かを待つのって、とても不安で寂しくて心細くて……",
+					{"rt2"},
+					"そして、どうしようもなく独りぼっちだった……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 314,
+	},
+	block_00053 = {
+		{"bg", speed=120000, file="zbg15a", path=":bg/", x2=384, y2=0, x=-384, y=0, ax=1024, ay=594, bx=-384, by=-234},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"美咲ちゃん、きっと来ないよね……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 320,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（だって、私は美咲ちゃんの気持ちを何もわかってなかった。",
+					{"rt2"},
+					"なんで私のために作戦を立ててくれてるのか、",
+					{"rt2"},
+					"どうして相談に乗ってくれてるのか……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 326,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そんなことを疑問にすら思わなかった。",
+					{"rt2"},
+					"それが当たり前だと思っていたから……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 331,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私が美咲ちゃんを待たせすぎたんだ……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 335,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（周りを見ると、独りぼっちの私になんて目もくれず、",
+					{"rt2"},
+					"二人組の生徒たちが次々と桜の元を訪れる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 340,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そっか──",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 344,
+	},
+	block_00059 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（美咲ちゃんは……もう、私の隣にはいないんだ……",
+					{"rt2"},
+					"痛いくらいの実感が私の胸を締め付けた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 353,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（美咲ちゃんの困ったようなあの笑顔も、",
+					{"rt2"},
+					"呆れたようなため息も、私はもう二度と……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 358,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（一人で桜を見上げていると、",
+					{"rt2"},
+					"ふいに視界がぼやけて、涙がこぼれた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 367,
+	},
+	block_00062 = {
+		{"select", label="label99", pre="bt_sel_title", text="select"},
+		{"select", name="04_03_2", mode="timed", wait=40000},
+		{"text"},
+		select = {
+			ja = {
+				" ",
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 376,
+	},
+	block_00063 = {
+		{"excall", label="label_selectng", cond="f.s==-1", call=0},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"bg", file="bg12a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……さて！　そろそろ帰ろうかなーっ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 397,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（なけなしの元気を振り絞って、",
+					{"rt2"},
+					"わざと明るい声で言ってみる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 402,
+	},
+	block_00065 = {
+		{"msgoff"},
+		{"bg", x=200, y=-220, file="zbg15a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（もう答えは出ていた。いくら待っても美咲ちゃんは来ない）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 414,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（だから私も立ち上がって、いつもの日常に戻るんだ。",
+					{"rt2"},
+					"別に悲しいことじゃない、",
+					{"rt2"},
+					"だって、この気持ちに気づく前に戻るだけなんだから）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 420,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"明日の部活、ちゃんと普通に行かなくっちゃ。",
+					{"rt2"},
+					"きっといつもみたいに準備でちょっと遅くなっちゃうだろうから",
+					{"rt2"},
+					"『ごめんね～』って笑いながら走っていくの",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 426,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（きっと今までみたいに笑えるよね……？",
+					{"rt2"},
+					"私の気持ちさえ隠し通せば、きっと大丈夫だよね？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 431,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（やっと気づいた思いも悲しみも、",
+					{"rt2"},
+					"全部置いていくつもりでもう一度、桜の花を仰ぎ見る）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 436,
+	},
+	block_00070 = {
+		{"bgm", stop=1},
+		{"se", file="se017", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00331", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲", "？？？"},
+					"上原さんっ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 442,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……え？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 446,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（この声は──",
+					{"rt2"},
+					"私が今、一番聞きたかった声）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 451,
+	},
+	block_00073 = {
+		{"se", stop=1, time=500, id=1},
+		{"bgm", file="bgm006"},
+		{"bg", file="ev_com_c04_01", path=":ev/ev_com_c04/", set="ev_com_c04"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00332", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"……ごめんね。遅れちゃった……っ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 464,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"み、美咲ちゃん！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 468,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そこにいたのは、息を切らせながらも",
+					{"rt2"},
+					"ホッとしたような顔を浮かべた美咲ちゃんだった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 473,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00333", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"もういないだろうって思ったのに……",
+					{"rt2"},
+					"ずっと待っててくれたんだ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 480,
+	},
+	block_00077 = {
+		{"bg", x=20, y=230, time=500, file="zev_com_c04_01", path=":ev/ev_com_c04/", set="ev_com_c04", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うん……っ、待ってたっ！",
+					{"rt2"},
+					"ずっと待ってたっ！！　だって──",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 487,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"待ってるほうの気持ちになれって言ったのは、美咲ちゃんだよ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 491,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（冗談めかして言ったつもりが、涙がぼろぼろ止まらない）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 495,
+	},
+	block_00080 = {
+		{"bg", sync=0, face="1", file="zev_com_c04_02", time=400, path=":ev/ev_com_c04/", set="ev_com_c04", ax=1280, ay=720, bx=-640, by=-360, x=20, y=230},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00334", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"それもそっか",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 502,
+	},
+	block_00081 = {
+		{"bg", time=500, file="ev_com_c04_01", path=":ev/ev_com_c04/", set="ev_com_c04"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00335", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"実はさ……",
+					{"rt2"},
+					"ここに来るか来ないかギリギリまで悩んでてさ、",
+					{"rt2"},
+					"ふと気づいたんだよ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 518,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00336", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"あたし、",
+					{"rt2"},
+					"上原さんのことなんでもわかってるつもりだった……ううん、",
+					{"rt2"},
+					"あたしだけはちゃんとわかってるって、思いたかったのかも",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 526,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"美咲、ちゃん……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 530,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00337", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"けど……ホントはなんにもわかってなかったんだなーって。",
+					{"rt2"},
+					"上原さんの気持ち、全然わかってなかったなって……ね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 537,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00338", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"上原さんが『桜の樹の下で待ってる』って言ってくれて、",
+					{"rt2"},
+					"やっとそのことに気づけたんだよね……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 543,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00339", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"たぶん、まだまだたくさんあるよね。",
+					{"rt2"},
+					"あたしが知らない上原さんが……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 549,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00340", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"あたしが知らない上原さんのこと、もっと知りたい。",
+					{"rt2"},
+					"だから……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 555,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00341", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"こんなあたしだけど……",
+					{"rt2"},
+					"ずっとペア、組んでくれるかな……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 561,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その言葉を聞いて、",
+					{"rt2"},
+					"安心したせいかボロボロとまた大粒の涙がこぼれて来た）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 566,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"もちろんだよっ！",
+					{"rt2"},
+					"美咲ちゃん、ずっと待たせちゃってごめんね……っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 571,
+	},
+	block_00091 = {
+		{"bg", file="bg12e", path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00281", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『満開の桜の樹の下……私はあなたと──』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 578,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00282", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『これは私にとって嘘のような、４月のある１日の話──』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 581,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00342", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『信じて、待ち続けたからこそ得られた、本当の絆──』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 584,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_him_00343", ch="him"},
+			},
+			ja = {
+				{
+					name = {"ひまり"},
+					"『私たちは迷い傷つきながらも、そのたびに向き合って──",
+					{"rt2"},
+					"これからも二人で進んで行くのだろう』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 588,
+	},
+	block_00095 = {
+		{"eval", exp="g.mis=1"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="white", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"タイトル"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00094",
+		line = 603,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+		label01 = { block="block_00051", label=1 },
+		tes = { block="block_00061", label=1 },
+		label99 = { block="block_00063", label=2 },
+		label_selectng = { block="block_00063", label=11 },
+		label_selectok = { block="block_00095", label=11 },
+	},
+}

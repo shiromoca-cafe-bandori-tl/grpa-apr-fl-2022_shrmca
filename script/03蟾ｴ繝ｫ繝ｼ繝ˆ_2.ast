@@ -1,0 +1,1670 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm002"},
+		{"bg", speed=120000, rule="083r", vague=40, file="zbg01a", path=":bg/", x2=384, y2=0, x=-384, y=0, ax=1024, ay=720, bx=-384, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"はあ……",
+					{"rt2"},
+					"期待した私がバカだった……",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 12,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（昼休みが始まり、クラスのみんながザワザワとにぎやかに",
+					{"rt2"},
+					"昼食を食べ始める頃。ため息をつきながら、私はつぶやく）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 17,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（巴とは幼馴染で、そういう仲じゃなくて、",
+					{"rt2"},
+					"近すぎるからこそうまくいかない……ってことなのかな）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 22,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（結局、ちゃんと桜の樹の話もできなかったし……",
+					{"rt2"},
+					"どうなるんだろう）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 27,
+	},
+	block_00004 = {
+		{"bg", file="bg12a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そんなことを考えながら、ふと窓の外を見る。",
+					{"rt2"},
+					"するとそこには、校庭でバスケをしている巴の姿があった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（キレイなターンから、ゴールめがけてボールを投げ──",
+					{"rt2"},
+					"狙いすました３ポイントシュートが、",
+					{"rt2"},
+					"ネットの中に吸いこまれるように決まる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 42,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"女子学生たち"},
+					"きゃーっ、巴ちゃんかっこいいー！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 46,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"女子学生たち"},
+					"今の見た～！？",
+					{"rt2"},
+					"すごかったよね！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 51,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（校舎のあちこちから、黄色い歓声が上がる。",
+					{"rt2"},
+					"人気者の巴を見ていたのは、当然私だけじゃなくて……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 56,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（でも、周りなんてどうでも良くなりそうなくらい、",
+					{"rt2"},
+					"真剣で楽しそうな巴の横顔は、本当にキレイで──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 61,
+	},
+	block_00010 = {
+		{"bg", file="bg01a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……そ、そうだよね！",
+					{"rt2"},
+					"どれだけ巴が人気者でも、私は私ができることをしなくちゃ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 70,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"それに、一緒に桜餅作るって約束もしたし……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 74,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（あっ、そうだ……！",
+					{"rt2"},
+					"もしかしたら桜餅を作ってる間に、",
+					{"rt2"},
+					"一緒に中庭の桜を見る約束だってできるかも……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 80,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（校庭でバスケットボールを手に笑う巴を見つめながら、",
+					{"rt2"},
+					"私は心の中で、えい、えい、おー！　と声をかけた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 85,
+	},
+	block_00014 = {
+		{"bgm", stop=1, time=2000},
+		{"se", stop=1, id=-1, time=2000},
+		{"vostop", stop=1, time=2000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", time=2000, file="bg13a", path=":bg/"},
+		{"bgm", file="bgm001"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そうして、約束の日。",
+					{"rt2"},
+					"私はリビングで、時計をじっと見つめながら巴を待っていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 100,
+	},
+	block_00015 = {
+		{"se", file="se003", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……あっ、来た！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 108,
+	},
+	block_00016 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="巴", size="z1", mx=40, mode=3, resize=1, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00378", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"よう、ひまり！",
+					{"rt2"},
+					"お邪魔するな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 116,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うんっ、上がって上がって！",
+					{"rt2"},
+					"使いそうな道具はちゃんと用意してあるから！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 121,
+	},
+	block_00018 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0003", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00379", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"おっ、準備万端って感じだな。",
+					{"rt2"},
+					"ていうか、張り切りすぎじゃないか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 128,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うるさいな〜、別にいいでしょ！",
+					{"rt2"},
+					"それで、頼んだ桜餅の材料は買ってきてくれたん……だよね？",
+					{"rt2"},
+					"なんか、すごい大荷物じゃない……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 134,
+	},
+	block_00020 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00380", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ああ。『材料は』買ってきたぜ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 139,
+	},
+	block_00021 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg13a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="巴", size="z2", mode=3, resize=1, path=":fg/tom/z2/", file="tom_z2a0200", face="a0002", head="tom_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"msgon"},
+		{"se", file="se005", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ニヤッと意味ありげな、イタズラっぽい顔で笑ったかと思うと、",
+					{"rt2"},
+					"巴は一体桜餅何食分になるんだろうと心配になるほどの、",
+					{"rt2"},
+					"山のような荷物を私に手渡してくる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 155,
+	},
+	block_00022 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"な、なにこれ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 161,
+	},
+	block_00023 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0001", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ちょ、ちょっと待って巴、",
+					{"rt2"},
+					"これってどう考えても桜餅の材料って重さじゃ……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 168,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（さっきのイタズラっぽい笑顔と、この異様なくらいの重さ。",
+					{"rt2"},
+					"もしかしてと荷物を開くと、そこには巨大な寸胴鍋や小麦粉、",
+					{"rt2"},
+					"そして鶏ガラや豚骨が大量に入っていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 174,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"とっ、巴ぇ～っ！！",
+					{"rt2"},
+					"話が違うじゃん～～っ！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 179,
+	},
+	block_00026 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0002", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00381", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ははは！　いいだろ別に、アタシとラーメン作るんでもさ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 186,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"全然良くないっ！",
+					{"rt2"},
+					"も～っ、桜餅作るの楽しみにしてたのに～",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 191,
+	},
+	block_00028 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0003", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00382", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"なんだよ、ラーメンでも桜餅でも",
+					{"rt2"},
+					"一緒に作るのには変わらないだろ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 197,
+	},
+	block_00029 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0006", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00383", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"それとも──",
+					{"rt2"},
+					"そんなに手作りの桜餅を食べさせたい相手がいるのか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 203,
+	},
+	block_00030 = {
+		{"select", label="label01", text="select"},
+		{"select", label="label02", text="select"},
+		{"select", label="label03", text="select"},
+		{"select", mode="sys", name="03_02_1"},
+		{"text"},
+		select = {
+			ja = {
+				"だから……巴には関係ないでしょ！",
+				"それより……煮干しと昆布が足りない！",
+				"巴こそ……私とラーメン、どっちが大事なの！？",
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 212,
+	},
+	block_00031 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg13a", path=":bg/", sync=0},
+		{"fg", ch="巴", size="z1", mode=3, resize=1, path=":fg/tom/z1/", file="tom_z1a0200", face="a0006", head="tom_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私はつい、いつものように",
+					{"rt2"},
+					"売り言葉に買い言葉で返してしまう）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 230,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（けれど──普段なら軽く笑う巴が、急に黙り込んでしまって。",
+					{"rt2"},
+					"胸の奥の方が、ざわっと不穏に騒ぐのを感じた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 235,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……巴……？",
+					{"rt2"},
+					"あ、えっと、ごめん、言いすぎた……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 240,
+	},
+	block_00034 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0004", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00384", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ああ、いや……",
+					{"rt2"},
+					"そうだよな。お前にもそういう相手の一人や二人、いるよな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 246,
+	},
+	block_00035 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00385", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ごめんな、ヘンな詮索してさ。",
+					{"rt2"},
+					"よし、桜餅作ろうぜ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 253,
+	},
+	block_00036 = {
+		{"se", file="se010", id=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg13a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="巴", size="z2", mode=3, resize=1, path=":fg/tom/z2/", file="tom_z2a0200", face="a0001", head="tom_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そう言って、巴は別のカバンを開く。",
+					{"rt2"},
+					"そこから取り出されたのは、",
+					{"rt2"},
+					"私が頼んだ通りの、桜餅の材料一式だった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 268,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"え……？",
+					{"rt2"},
+					"ちゃんと持ってきてたの？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 273,
+	},
+	block_00038 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0003", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0002", head="tom_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00386", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"バカだな～、ラーメン作ろうなんて冗談に決まってるだろ！",
+					{"rt2"},
+					"これくらいしないと面白くないだろ、幼馴染なんだしさ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 282,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ま、まあ、ちゃんと持ってきてくれたんならいいんだけど！",
+					{"rt2"},
+					"じゃ、じゃあ始めるよ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 287,
+	},
+	block_00040 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0001", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00387", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"おう、任せな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 292,
+	},
+	block_00041 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そうして、私たちは一緒に桜餅を作り始める。",
+					{"rt2"},
+					"だけど、二人の息は合うはずもなく……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 299,
+	},
+	block_00042 = {
+		{"msgoff"},
+		{"bg", file="zbg13a", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0005", head="tom_z2a", lv=5, id=13, sync=0},
+		{"extrans", rule=139, vague=40},
+		{"msgon"},
+		{"se", file="se019", id=1},
+		{"quake", mode="mw"},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0004", head="tom_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00388", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"あっ、悪い！！",
+					{"rt2"},
+					"粉ひっくり返しちまった",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 314,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"いっ、いいよいいよ！",
+					{"rt2"},
+					"大丈夫、私拭いておくから巴は手を洗って！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 319,
+	},
+	block_00044 = {
+		{"se", stop=1, time=500, id=1},
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0001", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0003", head="tom_z2a", lv=5, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00389", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ごめんな～ひまり、サンキュー。",
+					{"rt2"},
+					"……ん？　なあ、このあんこの鍋、",
+					{"rt2"},
+					"なんかやけに香ばしい香りがしないか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 329,
+	},
+	block_00045 = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あっ！！",
+					{"rt2"},
+					"いっ、いけない、使ったあと火止めるの忘れてた！！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 336,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（もぉ～、いつもならこんな失敗しないのにぃ～……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 340,
+	},
+	block_00047 = {
+		{"se", file="se011", id=1},
+		{"msgoff"},
+		{"bg", file="bg13a", path=":bg/", sync=0},
+		{"fg", ch="巴", size="z1", mode=3, resize=1, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"se", file="se004", id=2},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0006", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00390", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"火、とりあえず止めといたからな。",
+					{"rt2"},
+					"……ん？　なんかメッセージ来た",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 357,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"えっ、誰から？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 361,
+	},
+	block_00049 = {
+		{"se", stop=1, time=500, id=1},
+		{"se", stop=1, time=500, id=2},
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00391", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"あー、クラスの女子からだな。",
+					{"rt2"},
+					"アタシと伝説の桜の樹が見たいってさ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 370,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その言葉を聞いて、",
+					{"rt2"},
+					"まるで金縛りにあったみたいに身体が固まった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 375,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（動かしづらい口をなんとか開いて、私は巴に聞き返す）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 379,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……で、どうするの？　行くの？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 383,
+	},
+	block_00053 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0003", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00392", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"んー、どうだろうな。",
+					{"rt2"},
+					"まあ、あとでなんかしら返事しとくよ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 390,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そ、そっか……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 394,
+	},
+	block_00055 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0006", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00393", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"なあひまり、あとこれって桜の葉っぱを巻くだけでいいんだよな？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 399,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あっ、う、うん。そうだね……っ。",
+					{"rt2"},
+					"いよいよ最後の仕上げっ",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 404,
+	},
+	block_00057 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00394", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"へー、結構良くできたんじゃないか？",
+					{"rt2"},
+					"あとは味がどうなってるか、だな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 411,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"うん。ちゃんと美味しくできてるといいなあ……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 415,
+	},
+	block_00059 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0006", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00395", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"どれ、ひとつつまみ食いっと",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 420,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"あっ！",
+					{"rt2"},
+					"……ど、どうかな？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 425,
+	},
+	block_00061 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00396", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ん、美味いな。",
+					{"rt2"},
+					"ひまりも食ってみろよ、初めてにしては",
+					{"rt2"},
+					"アタシらがんばったんじゃないか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 433,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"えっとじゃあ、いただきます……",
+					{"rt2"},
+					"……ん、美味しい……！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 438,
+	},
+	block_00063 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00397", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ははっ、良かったな。あとは本番で、",
+					{"rt2"},
+					"ひまりがいつものドジをやらかさないかだけだな～",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 445,
+	},
+	block_00064 = {
+		{"se", file="se004", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"しっ、しないもん！",
+					{"rt2"},
+					"……ねえ巴、またなんか鳴ってるよ？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 453,
+	},
+	block_00065 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0003", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00398", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ん？　ああ……",
+					{"rt2"},
+					"まあ、あとでな",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 460,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そ、そう……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 464,
+	},
+	block_00067 = {
+		{"se", stop=1, time=500, id=1},
+		{"bgm", stop=1},
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私たちは、完成した桜餅を黙々と食べる。",
+					{"rt2"},
+					"その間も、何度か巴のスマホからは着信音が鳴っていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 475,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そのたびに、私の不安はふくらんで……",
+					{"rt2"},
+					"結局、桜の樹を見に行こうととも言い出せずに、",
+					{"rt2"},
+					"その日は終わってしまった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 481,
+	},
+	block_00069 = {
+		{"bgm", stop=1, time=2000},
+		{"se", stop=1, id=-1, time=2000},
+		{"vostop", stop=1, time=2000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=2000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03巴ルート_3"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg13a", path=":bg/", sync=0},
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0005", head="tom_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00399", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"へ？　なんだって？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 504,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"もう、見てよこの材料！！",
+					{"rt2"},
+					"巴ってば、豚骨ばっかりなんだから",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 509,
+	},
+	block_00071 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0004", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00400", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"あ、ああ、ラーメンの話か……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 514,
+	},
+	block_00072 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0003", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00401", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"え、だってアタシが作ろうとしてんのって",
+					{"rt2"},
+					"豚骨ラーメンだし……",
+					{"rt2"},
+					"あれ、なんかおかしいか？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 521,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そ、それだけじゃ深みが出ないよ！",
+					{"rt2"},
+					"他にも煮干しとか昆布とか、ダシに必要なものがあるはず！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 526,
+	},
+	block_00074 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0001", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00402", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"なるほどな？",
+					{"rt2"},
+					"そこまで言うからには、",
+					{"rt2"},
+					"ひまりは究極のスープを作れるんだろうな？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 533,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"う……と、当然でしょ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 537,
+	},
+	block_00076 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00403", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"なら、勝負だ！",
+					{"rt2"},
+					"どちらが究極のラーメンを作れるか……決着をつけるぜ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 543,
+	},
+	block_00077 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03巴ルート_4"},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg13a", path=":bg/", sync=0},
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0003", head="tom_z1a", lv=4, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00404", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"は？",
+					{"rt2"},
+					"な、なんだよ急に",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 567,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"いつもいつも、ラーメンのことばっかり……！",
+					{"rt2"},
+					"どうせ巴は、私のこと麺をゆでる鍋くらいにしか",
+					{"rt2"},
+					"思ってないんでしょ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 573,
+	},
+	block_00079 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0005", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0006", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00405", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"そ、そんなわけないだろ！？",
+					{"rt2"},
+					"アタシはただ……ひまりが美味そうに",
+					{"rt2"},
+					"ラーメンをすする顔が見たいだけだ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 581,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"ホントに……？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 585,
+	},
+	block_00081 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0006", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0002", head="tom_z1a", lv=4, id=13},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00406", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ああ、ホントだ……！",
+					{"rt2"},
+					"今ここで究極のラーメンを作って、それを証明してやる！",
+					{"rt2"},
+					"ひまり、手伝ってくれ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 593,
+	},
+	block_00082 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="03巴ルート_4"},
+		{"text"},
+		linkback = "block_00081",
+		line = 602,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+		label01 = { block="block_00031", label=1 },
+		label02 = { block="block_00069", label=10 },
+		label03 = { block="block_00077", label=10 },
+	},
+}

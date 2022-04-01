@@ -1,0 +1,167 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ここにも、いない……）",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 17,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そのあとも、私たちは必死に探し回ったけど、",
+					{"rt2"},
+					"やがて発表会の時間が来てしまった……",
+					{"rt2"},
+					"友希那先輩は、険しい表情のまま……ステージへと上がった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 23,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その歌声は、あの日音楽室で聴いたものとは、",
+					{"rt2"},
+					"やはりどこか違っていて……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 30,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ひどく不安定で、どこか泣いているようで……",
+					{"rt2"},
+					"それでも必死に歌い続ける友希那先輩の姿に、",
+					{"rt2"},
+					"胸がずきりと痛む……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 36,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（『今日の友希那先輩、なんかいつもと違ったね』",
+					{"rt2"},
+					"『いつもみたいな迫力がないよね』と、",
+					{"rt2"},
+					"周りの生徒たちからも、がっかりした声が聞こえた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 42,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（私がもっと、がんばっていれば？",
+					{"rt2"},
+					"なんとか猫を見つけ出せていたら？",
+					{"rt2"},
+					"そんな後悔が、延々と私の頭の中を巡っている）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 48,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（桜の樹どころの話じゃ、なくなっちゃったな……",
+					{"rt2"},
+					"……猫、どうしちゃったのかな。友希那先輩、大丈夫かな……？",
+					{"rt2"},
+					"そう思いながら私は一人、散りゆく桜を眺めていた……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 54,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（本当は、友希那先輩と、満開の桜を見てみたかった──",
+					{"rt2"},
+					"その気持ちが、苦い痛みとして残ったまま……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 59,
+	},
+	block_00008 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00007",
+		line = 65,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

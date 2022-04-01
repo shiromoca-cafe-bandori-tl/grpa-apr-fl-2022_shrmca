@@ -1,0 +1,347 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"se", file="se020", time=1500, loop=1, id=1},
+		{"bg", speed=120000, file="zbg13a", path=":bg/", x2=384, y2=0, x=-384, y=0, ax=1024, ay=720, bx=-384, by=-360},
+		{"bgm", file="bgm005"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（一体、どれほど豚骨を煮込んだろう？",
+					{"rt2"},
+					"ダシを何回取り直したんだろう？",
+					{"rt2"},
+					"何度麺を打ったんだろう？）",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 16,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（ネギを切り、卵をゆで、いくつものチャーシューを煮詰めた）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 20,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（巴は意地で、そして私はヤケで、",
+					{"rt2"},
+					"ただただひたすらにラーメンを作り続ける……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 25,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00407", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"まだだ……",
+					{"rt2"},
+					"アタシたちはまだ、『究極』にたどり着いてない！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 29,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（何杯、何十杯と積み重なった丼を前に、",
+					{"rt2"},
+					"巴が悔しそうな雄叫びを上げる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 34,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（試食だって、一体何回しただろう……",
+					{"rt2"},
+					"もう、お腹が悲鳴を上げている……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 39,
+	},
+	block_00006 = {
+		{"se", stop=1, time=1000, id=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg13a", path=":bg/", sync=0},
+		{"fg", ch="巴", size="z1", mode=3, resize=1, path=":fg/tom/z1/", file="tom_z1a0200", face="a0006", head="tom_z1a", lv=4, id=13, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"と……巴……私はもう、ダメかも──",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 52,
+	},
+	block_00007 = {
+		{"fg", ch="巴", size="z1", mode=3, path=":fg/tom/z1/", file="tom_z1a0200", face="a0005", head="tom_z1a", lv=4, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00408", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"なっ、ひまり……！？",
+					{"rt2"},
+					"大丈夫か！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 58,
+	},
+	block_00008 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="zbg13e", path=":bg/", ax=1024, ay=720, bx=-384, by=-360, sync=0},
+		{"fg", ch="巴", size="z2", mode=3, resize=1, path=":fg/tom/z2/", file="tom_z2a0200", face="a0005", head="tom_z2a", lv=5, id=13, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（キッチンに膝をつく私に、巴が駆け寄って肩を抱いてくれる。",
+					{"rt2"},
+					"その切迫した顔さえキレイに見えてしまうのは、",
+					{"rt2"},
+					"朦朧とした意識のせいなのか……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 73,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（もうムリだよ……",
+					{"rt2"},
+					"ラーメンでいっぱいでなにも考えられない……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 78,
+	},
+	block_00010 = {
+		{"fg", ch="巴", size="z2", mode=3, path=":fg/tom/z2/", file="tom_z2a0200", face="a0005", head="tom_z2a", lv=5, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00409", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"そんな……ウソだと言ってくれ！",
+					{"rt2"},
+					"究極のラーメンを作ってみせるって、約束しただろ！？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 84,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"わかってる……ごめんね、巴……",
+					{"rt2"},
+					"私の思いを、あなたに託すから……必ず作って。",
+					{"rt2"},
+					"究極の……ラーメンを……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 90,
+	},
+	block_00012 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00410", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"お、おい！",
+					{"rt2"},
+					"ひまり……ひまり～～っ！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 98,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_tom_00411", ch="tom"},
+			},
+			ja = {
+				{
+					name = {"巴"},
+					"ぐすっ……くっ、こうなったら……",
+					{"rt2"},
+					"絶対──絶対にやり遂げてみせるぞ！",
+					{"rt2"},
+					"ひまり、お前が喜ぶ最高の一杯、絶対に作り上げてみせる！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 103,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（遠のく意識の中、強く誓う巴の声がする）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 107,
+	},
+	block_00015 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（あの時……",
+					{"rt2"},
+					"教室で勇気を出して、売り言葉に買い言葉じゃなく",
+					{"rt2"},
+					"ちゃんと自分の気持ちを伝えられていたら……？）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 115,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そうしたら、こんなことにはならなかったのかもしれない……",
+					{"rt2"},
+					"そんな後悔と、お腹の痛さを抱えたままベッドで過ごすうちに、",
+					{"rt2"},
+					"伝説の桜はいつの間にか散ってしまった……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 121,
+	},
+	block_00017 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00016",
+		line = 127,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

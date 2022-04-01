@@ -1,0 +1,371 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm005"},
+		{"msgoff"},
+		{"bg", file="zbg15a", path=":bg/", ax=1024, ay=594, bx=-384, by=-234, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"そうだ。",
+					{"rt2"},
+					"メッセージを送れば、美咲ちゃんに気づいてもらえるかも！",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 18,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（急いでカバンからスマホを取り出し、",
+					{"rt2"},
+					"画面をスワイプする）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 23,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（自分のモヤモヤした気持ちから目をそらすように、",
+					{"rt2"},
+					"メッセージを打つことに没頭する）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 28,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"『桜の樹で待ってるからね！　絶対に来てね！』……っと！",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 32,
+	},
+	block_00004 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（──結局、そのメッセージに返信が来ることはなく、",
+					{"rt2"},
+					"美咲ちゃんも姿を現さなかった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 41,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（今思えば、メッセージを送ったのも、",
+					{"rt2"},
+					"何もできないもどかしさをぶつけるためで──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 46,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そんな思いが、",
+					{"rt2"},
+					"美咲ちゃんに見透かされてしまったのかもしれない）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 51,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"私、もっと美咲ちゃんを信じれば良かった。",
+					{"rt2"},
+					"絶対来るって信じて待てばこんなことには……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 56,
+	},
+	block_00008 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"bgm", file="bgm005"},
+		{"bg", file="bg12a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"……やっぱり、帰ろう",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 75,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（きっと、もう美咲ちゃんは来ない。",
+					{"rt2"},
+					"いさぎよく諦めよう）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 80,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（今までは大好きだった桜の花も春という季節も、",
+					{"rt2"},
+					"これからは嫌いになってしまいそうだった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 85,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（だってこれから何度でも、春が巡ってくるたびに",
+					{"rt2"},
+					"今日のことを思い出すに決まってる）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 90,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（せめて美咲ちゃんも……春がくるたび、",
+					{"rt2"},
+					"私のことを思い出してくれればいい。",
+					{"rt2"},
+					"それが悲しみでも憎しみでも……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 96,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そんなことを思いながら、私は一人",
+					{"rt2"},
+					"桜の樹に背を向けて歩き出した──）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 101,
+	},
+	block_00014 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"se", file="se017", id=1},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00327", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"はぁはぁ……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 111,
+	},
+	block_00015 = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00328", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"……はぁっ……",
+					{"rt2"},
+					"………………もう……いない、か……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 117,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00329", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"はは……そうだよね。",
+					{"rt2"},
+					"待っててくれてるかも──なんて、あたしの考えが甘いよね",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 121,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_mis_00330", ch="mis"},
+			},
+			ja = {
+				{
+					name = {"美咲"},
+					"ほんと、バカみたい……",
+					{"rt2"},
+					"勝手に期待して、勝手に裏切られた気になって……",
+					{"rt2"},
+					"…………あたしって……子供だよね…………",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 126,
+	},
+	block_00018 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00017",
+		line = 132,
+	},
+	label = {
+		label02 = { block="block_00000", label=1 },
+		top = { block="block_00000", label=1 },
+		label03 = { block="block_00008", label=10 },
+	},
+}

@@ -1,0 +1,133 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", speed=120000, file="zbg01a", path=":bg/", x2=-384, y2=0, x=384, y=0, ax=1024, ay=720, bx=-384, by=-360},
+		{"bgm", file="bgm005"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（結局、しばらく熱は下がらず、",
+					{"rt2"},
+					"学校に復帰した頃には、すっかり桜は散ってしまっていた）",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 11,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（その後も、私はチュチュちゃんのクラスを訪ねては、",
+					{"rt2"},
+					"学校のいろんなところを案内して回った）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 16,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（でも、どこを案内しても、",
+					{"rt2"},
+					"チュチュちゃんはなんとなく退屈そうで……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 21,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（やがて期待外れだったと言って、",
+					{"rt2"},
+					"また学校に来なくなってしまった）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 26,
+	},
+	block_00004 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（もしかしたら、あと一歩……",
+					{"rt2"},
+					"あと一歩だけ、チュチュちゃんのことを知ろうって",
+					{"rt2"},
+					"前に踏み出すことができたら結果は違っていたのかもしれない）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 36,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"ひまり"},
+					"（そんな、意味のない妄想を振り払うように、",
+					{"rt2"},
+					"私はチュチュちゃんのいないクラスをあとにするのだった……）",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 41,
+	},
+	block_00006 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"タイトル"},
+		{"text"},
+		linkback = "block_00005",
+		line = 47,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
